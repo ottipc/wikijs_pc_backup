@@ -23,13 +23,13 @@
 ## Petitcode Members
 
 * guy@petitcode.com
-* 
+ 
 * otti@petitcode.com
-* 
+ 
 * lukas@petitcode.com
-* 
+ 
 * seb@petitcode.com
-* 
+ 
 * axel@petitcode.com
 
 
