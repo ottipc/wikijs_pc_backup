@@ -3,7 +3,7 @@
 
 # Statement of Costs
 
-* Bullhorn Intl. LTD - 252€ - ab 7.18 (Recruiting-Software)
+* Bullhorn Intl. LTD - 252€ - ab 7.18         (Recruiting-Software)
 * Campusspeicher GmbH - ca.130€ ab 4.18 (Webhost)
 * ebuero Aktiengesellschaft - ca.100€ ab 2.19 (E-Sekretärin)
 * Factory Works GmbH - 119€ ab 5.18 (Miete)
