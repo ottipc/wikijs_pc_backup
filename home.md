@@ -7,9 +7,9 @@
 
 ### Petitcode Nextcloud
 
-**Url** : https://37.61.202.252/nextcloud
+**Url** : https://nextcloud.petitcode.com
 
 
 ### Petitcode Wiki 
 
-**Url** : https://37.61.202.252/wiki
+**Url** : https://wiki.petitcode.com
