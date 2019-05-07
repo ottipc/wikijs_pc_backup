@@ -12,6 +12,8 @@ Petitcode here needs some Infomrationen by the scan which is really necessary :
 - Technologies used at actual Webpage
 - Contact Person of the potential Customer
 
+The Crawler should run every day scannin new Urls which it havent scanned so far.
+
 
 ## Technical Details
 
