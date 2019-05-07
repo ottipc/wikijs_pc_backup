@@ -27,9 +27,9 @@ There is one Board, all Petitcode members should use to get a transparent view w
   * Customer ( which Customer the Ticket is related to / intern)
   * Description of the specified task of the Ticket in Users View
   * Members ( who is necessary on this Ticket, NOT MORE!!!!)
+  * Priority (High, Low, None)
   * Details and Technical Information ( Links to other Boards etc, how to test, Techstacks)
-	* Priority
-
+	
 Please take care for your tickets and tread them conscientious!
 
 
