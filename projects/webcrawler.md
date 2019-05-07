@@ -27,3 +27,9 @@ The Crawler should run every day scannin new Urls which it havent scanned so far
 * Are we are permitted to save data we use from google? I think not
 * Where we getting urls we are scanning?
 * Which Technics we should use
+
+## Solutions
+
+There are already plenty of open source web crawlers in the web :https://bigdata-madesimple.com/top-50-open-source-web-crawlers-for-data-mining/
+
+Maybe we can figure out,if one is useful for us, so we dont have to write a new application.
