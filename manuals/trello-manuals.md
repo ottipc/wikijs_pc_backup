@@ -33,7 +33,7 @@ There is one Board, all Petitcode members should use to get a transparent view w
 Please take care for your tickets and tread them conscientious!
 
 
-**TODO LINE ** : There should be maximal 2 Tickets per User in this Line
+**TODO LINE** : There should be maximal 2 Tickets per User in this Line
 
 **IN PROGRESS**: There should be only 1 Ticket per User in this Line
 
