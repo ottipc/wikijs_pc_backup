@@ -18,6 +18,9 @@ There is one Board, all Petitcode members should use to get a transparent view w
 
 - Link to Board here :  
 
+With Shortcut "Q" you can toogle away Tickets of other Members, so only your own Tickets are shown.
+
+For private Use you can of course make as much as you want, but trello is limited by group!
 
 ## Tickets 
 
