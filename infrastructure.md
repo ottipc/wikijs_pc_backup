@@ -31,5 +31,8 @@
 **Url** : https://petitcode.harvestapp.com
 
 
+### Peticode Slack
+
+**Url**: https://petitcode.slack.com
 
 
