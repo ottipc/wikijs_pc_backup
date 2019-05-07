@@ -5,8 +5,9 @@
 ### Address
 
 petitcode GmbH
-Friedrichstr. 11 
-10969 Berlin
+c/o  Factory Works
+Rheinsberger Str. 76/77
+10115 Berlin
 
 ### CEO
 
