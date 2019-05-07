@@ -10,3 +10,5 @@ BACKLOG  |   TODO  |   IN PROGRESS  |    DONE   |   FEEDBACK
 
 like to see in screenshot
 
+![Trello Manual](/uploads/trello-manual.png "Trello Manual")
+
