@@ -1,5 +1,5 @@
 <!-- TITLE: Nextcloud -->
-<!-- SUBTITLE: A quick summary of Nextcloud -->
+<!-- SUBTITLE: A quick summary of how to use the Petitcode Nextcloud -->
 
 # Nextcloud Manual
 
