@@ -6,6 +6,16 @@
 ## Url
 Peticode nextcloud is running on : https://nextcloud.petitcode.com
 
+
+### Firefox
+
+![Nextcloud Firefox](/uploads/nextcloud-firefox.png "Nextcloud Firefox")
+
+### Chrome
+
+![Nextcloud Chrome](/uploads/nextcloud-chrome.png "Nextcloud Chrome")
+
+
 ## Folders
 
 ### Petitcode-Documents
