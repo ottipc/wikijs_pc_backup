@@ -25,19 +25,19 @@ For private use you can of course make as much as you want, but trello is limite
 ## Tickets 
 
 
-  **Tickets in Trello should have followed Content:**
+  **Tickets in Trello should have the following content:**
   
-  * Customer ( which Customer the Ticket is related to / intern)
-  * Description of the specified task of the Ticket in Users View
-  * Members ( who is necessary on this Ticket, NOT MORE!!!!)
+  * Customer (which customer the ticket is related to / internal)
+  * Description of the specified task of the ticket in user's view
+  * Members (who is necessary on this ticket, NOT MORE!!!!)
   * Priority (High, Low, None)
-  * Details and Technical Information ( Links to other Boards etc, how to test, Techstacks)
+  * Details and Technical Information (links to other boards etc, how to test, Techstacks)
 	
-Please take care for your tickets and tread them conscientious!
+Please take care of your tickets and treat them conscientiously!
 
 
-**TODO LINE** : There should be maximal 2 Tickets per User in this Line
+**TODO LINE** : There should be a maximum of 2 tickets per user in this line
 
-**IN PROGRESS**: There should be only 1 Ticket per User in this Line
+**IN PROGRESS**: There should be only 1 ticket per user in this line
 
 
