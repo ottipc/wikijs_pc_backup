@@ -1,5 +1,5 @@
 <!-- TITLE: Documentation -->
-<!-- SUBTITLE: A quick summary of Documentation -->
+<!-- SUBTITLE: A Quick Summary of Necessary Documentation -->
 
 # pc Project Documentation
 
