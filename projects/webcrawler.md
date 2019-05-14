@@ -25,8 +25,10 @@ The Crawler should run every day scannin new Urls which it havent scanned so far
 ## Important
 * Customers only should note on for one time. If he is explicitly answering, that he dont want a homepage, it is forbidden to notify the customer twice.
 * Are we are permitted to save data we use from google? I think not
-* Where we getting urls we are scanning?
-* Which Technics we should use
+* Where we getting urls we are scanning?   
+	Answer : We getting infos about the soogle search of the branche
+* How about saving the technical Details of the specified webpage?	
+* Which Technics we should use if we write the crawler
 
 ## Solutions
 
