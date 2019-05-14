@@ -1,7 +1,7 @@
 <!-- TITLE: Documentation -->
 <!-- SUBTITLE: A Quick Summary of Necessary Documentation -->
 
-# pc Project Documentation
+# pc Project Documentation - Client Projects
 
 Each project requires the following information and data: 
 - Project Outline
