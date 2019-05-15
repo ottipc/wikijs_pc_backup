@@ -35,3 +35,12 @@ The Crawler should run every day scannin new Urls which it havent scanned so far
 There are already plenty of open source web crawlers in the web :https://bigdata-madesimple.com/top-50-open-source-web-crawlers-for-data-mining/
 
 Maybe we can figure out,if one is useful for us, so we dont have to write a new application.
+
+From quick research, the most referenced solutions (popularity, ratings, amount of google results) are:
+Heritrix /	Java	Linux
+Nutch	/ Java	Cross-platform
+Scrapy /	Python	Cross-platform
+PHP-Crawler	/ PHP	Cross-platform
+WebSPHINX	/ Java	Cross-platform
+
+Good thing is they are all open-source = free tools
