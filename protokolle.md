@@ -51,4 +51,4 @@ Lukas :
 
 Axel :
 
-- Get a quote for a D&O coverage (i.e. Directors & Officers insurance for monetary damages to the company caused by an MD)
+- Get a quote for D&O coverage (i.e. Directors & Officers insurance for monetary damages to the company caused by an MD)
