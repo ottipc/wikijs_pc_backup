@@ -25,7 +25,7 @@ Account Owner : petitcode GmbH
 IBAN : FI1579977997401448
 
 
-## Petitcode Members
+## petitcode Members
 
 * guy@petitcode.com
  
