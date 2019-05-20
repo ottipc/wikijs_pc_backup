@@ -51,5 +51,5 @@ Lukas :
 
 Axel :
 
-- Director office ensureance
+	- Get a quote for a D&O coverage (i.e. Directors & Officers insurance for monetary damages to the company caused by an MD)
 
