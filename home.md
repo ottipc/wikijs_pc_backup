@@ -1,7 +1,7 @@
 <!-- TITLE: PETITCODE HOME -->
 <!-- SUBTITLE: This is the Homepage of the Petitcode Wiki -->
 
-# Petitcode Home
+# petitcode Home
 ### Address
 
 petitcode GmbH
