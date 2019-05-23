@@ -7,6 +7,9 @@
 
 **Url** : https://nextcloud.petitcode.com
 
+For better usage, you can download the client here: https://nextcloud.com/install/#install-clients
+That way you have all the files on your computer directly.
+
 
 ### Petitcode Wiki 
 
