@@ -5,46 +5,56 @@
 
 ## Specification
 
-We want to implement a webcrawler which scan the Internet for webpages and analyse the used Technologies. After manual validation of this Technologies, we want to make the customer an offer for a new Webpage constructed by Petitcode.
-Petitcode here needs some Infomrationen by the scan which is really necessary :
+We want to implement a webcrawler to scan the internet for websites and webshops and analyze their applied technologies and most recent update or change dates. After manual validation of the technologies, the idea is to contact the lead and propose our sefices to help them update or renew their digital presence.
 
-- Customer name
-- Technologies used at actual Webpage
-- Contact Person of the potential Customer
+To that end, petitcode needs sthe following information to be revealed by the scan:
 
-The Crawler should run every day scannin new Urls which it havent scanned so far.
+- CEO name
+- Technologies used at present digital presence
+- Date of most recent changes
+
+The crawler should be fed with URLs from industries and geographies as defined for campaigns periodically set up for direct marketing and sales.
 
 
 ## Technical Details
 
+Existing crawlers should be tested for the above functionality. 
 
-## Crawler workflow 
-1. Scan specified Sites
-2. Send Emai to petitcode employes with found Data
-3. Eventually save all related to a Database ( if we want to scan a lot of sides, it will be a lot of data, so we have to decide if this is necessary) 
-## Important
-* Customers only should note on for one time. If he is explicitly answering, that he dont want a homepage, it is forbidden to notify the customer twice.
-* Are we are permitted to save data we use from google? I think not
-* Where we getting urls we are scanning?   
-	Answer : We getting infos about the soogle search of the branche
-* How about saving the technical Details of the specified webpage?	
-* Which Technics we should use if we write the crawler
+
+## Data Privacy Related Procedures & Questions
+
+* URLs will be identified and collected by using a commercially available lead database.
+* Leads will only be contacted once.  We will not store any lead data from non-interested contacts other than their URL, the date we contacted them and that they did not want to go forward with pc.  These data have not been provided by the lead.
+* Are we are permitted to store data we acquird from Google search?  To be determined (By whom? When?)
+* Are we permitted to store the outcome of a scan?  Most certainly yes, temporarily until a lead enters into a sales dialog with us or we give up on the lead and all data will be deleted with the exception of those stated above.	
+* Does it make sense for us to develop our own crawler?  If so, which technics should we be using?  A preliminary answer is: No, see below.
+
 
 ## Solutions
 
 There are already plenty of open source web crawlers in the web :https://bigdata-madesimple.com/top-50-open-source-web-crawlers-for-data-mining/
 
-Maybe we can figure out,if one is useful for us, so we dont have to write a new application.
+We should examine which of these would be useful for the task so we don't have to write our own.
 
-From quick research, the most referenced solutions (popularity, ratings, amount of google results) are:
-Heritrix /	Java	Linux
-Nutch	/ Java	Cross-platform
-Scrapy /	Python	Cross-platform
-PHP-Crawler	/ PHP	Cross-platform
-WebSPHINX	/ Java	Cross-platform
+From quick research, the most referenced solutions by popularity, ratings and number of Google results are:
+- Heritrix /	Java	Linux
+- Nutch	/ Java	Cross-platform
+- Scrapy /	Python	Cross-platform
+- PHP-Crawler	/ PHP	Cross-platform
+- WebSPHINX	/ Java	Cross-platform
 
 Good thing is they are all open-source = free tools
 
+
 ## Action Points
 
-abc..
+* 1 - Identify the most promising crawler from above list [to do: Guy & Axel, < 28.5.2019]
+* 2 - Understand use of selected crawler and make a short test run using 20 known URLs [to do: Guy 28./29.5.2019]]
+* 3 - Review results and (a) change crawler or (b) hone crawler use or (c) go forward with same crawler [to do: Guy & Axel, < 30.5.2019] 
+* 3 - Define a first campaign by target industry and geography, start time, pc resource and potential cost [Seb, Guy & Axel < 4.6.2019]
+* 4 - Write a script for the approach to the lead - both phone and email versions [Axel < 4.6.2019]
+* 5 - Write a sales process to follow up on responsive leads [Axel < 4.6.2019]
+* 6 - Pre-select targets from Bisnode Hoppenstedt database, collect URLs, run crawler, begin contacting [Guy, Lukas & Axel < 4.6.2019]
+* 7 - Review results from crawler, (a) change crawler or (b) hone crawler use or (c) go forward with same crawler and process - depending on quality of the outcome [Guy & Axel < 4.6.2019]
+* 8 - Reiterate to # 6 [to do: see above]
+* 
