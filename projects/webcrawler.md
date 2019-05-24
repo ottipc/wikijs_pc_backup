@@ -12,6 +12,7 @@ To that end, petitcode needs sthe following information to be revealed by the sc
 - CEO name
 - Technologies used at present digital presence
 - Date of most recent changes
+- Applied technologies on website
 
 The crawler should be fed with URLs from industries and geographies as defined for campaigns periodically set up for direct marketing and sales.
 
