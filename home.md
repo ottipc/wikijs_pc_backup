@@ -1,5 +1,5 @@
 <!-- TITLE: PETITCODE HOME -->
-<!-- SUBTITLE: This is the Homepage of the Petitcode Wiki -->
+<!-- SUBTITLE: This is the Homepage of petitcode's own Wiki -->
 
 # petitcode Home
 ### Address
