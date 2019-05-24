@@ -56,7 +56,9 @@ Axel :
 
 ### Diskussion mit Sixtine 
 
-> [11:51, 21.5.2019] Sixtine: Hey Otti, 
+
+```powershell
+[11:51, 21.5.2019] Sixtine: Hey Otti, 
 (Sorry Englisch geht schneller in  technische Fälle ;))
 By "Abfrage" do you mean you want to build a crawler or are you accessing the Google maps API directly ? I believe those are two options with different legal requirements
 [11:52, 21.5.2019] Sixtine: I have to admit I don't know the legal specifics, rules of thumb I'd say it's probably not really possible.
@@ -74,7 +76,6 @@ I only needed your confirmation
 [11:56, 21.5.2019] Sixtine: I'd say it really depends on the project : if you're paid for doing smth super professional then go to the API
 [11:56, 21.5.2019] Otti: thats exactly the Thing!!!
 [11:57, 21.5.2019] Sixtine: If youre paid to get shit done, well just do whatever they will never come look for you
-[11:57, 21.5.2019] Otti: petticode want a crawler to scan websites, but they even enough research about this 😆
 [11:57, 21.5.2019] Otti: i think this is really not in interesting of google
 [11:57, 21.5.2019] Sixtine: But wait
 [11:58, 21.5.2019] Sixtine: This data might be available somewhere else
@@ -90,3 +91,5 @@ I only needed your confirmation
 [12:00, 21.5.2019] Sixtine: No flower store is probably not the best
 [12:00, 21.5.2019] Sixtine: What about Mappy?
 [12:00, 21.5.2019] Sixtine: It's a french company that specialises if POI references
+```
+
