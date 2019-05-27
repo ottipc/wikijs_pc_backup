@@ -49,7 +49,7 @@ Good thing is they are all open-source = free tools
 
 ## Action Points
 
-* 1 - Identify the most promising crawler from above list [to do: Guy & Axel, < 28.5.2019]
+* 1 - Identify the most promising crawler from above list [to do: Lukas & Axel, < 28.5.2019]
 * 2 - Understand use of selected crawler and make a short test run using 20 known URLs [to do: Guy 28./29.5.2019]]
 * 3 - Review results and (a) change crawler or (b) hone crawler use or (c) go forward with same crawler [to do: Guy & Axel, < 30.5.2019] 
 * 3 - Define a first campaign by target industry and geography, start time, pc resource and potential cost [Seb, Guy & Axel < 4.6.2019]
