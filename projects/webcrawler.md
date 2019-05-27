@@ -58,4 +58,3 @@ Good thing is they are all open-source = free tools
 * 6 - Pre-select targets from Bisnode Hoppenstedt database, collect URLs, run crawler, begin contacting [Guy, Lukas & Axel < 4.6.2019]
 * 7 - Review results from crawler, (a) change crawler or (b) hone crawler use or (c) go forward with same crawler and process - depending on quality of the outcome [Guy & Axel < 4.6.2019]
 * 8 - Reiterate to # 6 [to do: see above]
-* 
