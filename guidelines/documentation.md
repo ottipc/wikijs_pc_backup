@@ -14,3 +14,7 @@ Each project requires the following information and data:
 - Link to Tracking in Harvest
 - Link to the Post-Project Calc if services rendered differ from signed contract (XL, stored on nextcloud)
 - Contract Changing Correspondence copies if any (as e.g. .msg or .pdf, stored on nextcloud)
+
+
+# pc Project Sales Process & Supporting Systems & Data
+
