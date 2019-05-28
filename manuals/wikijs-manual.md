@@ -29,3 +29,14 @@ Repository Url : git@github.com:ottipc/wikijs_pc_backup.git
 
 
 ...if you load up more then one files, you only have to refresh the side to see all!!
+
+
+## TIF Images
+
+Tif is a Windows format, so wikijs dont recognize it as Image. 
+
+If you only want to offer the File in the wiki, you have to use "File Upload" .. and then insert Link to File.
+
+If you want to show the Image direct on the webpage, you can use a Converter and convert the Tif to a Jpg : 
+
+https://www.zamzar.com/convert/tiff-to-jpg/
