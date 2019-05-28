@@ -46,6 +46,7 @@ From quick research, the most referenced solutions by popularity, ratings and nu
 
 Good thing is they are all open-source = free tools
 
+*UPDATE* : the options above seem quite complicated for first time usage. Please consider the following: https://www.octoparse.com/blog/free-online-web-crawler-tool
 
 ## Action Points
 
