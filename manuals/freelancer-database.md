@@ -9,7 +9,7 @@ https://docs.google.com/spreadsheets/d/1nWvvdffUEcgqbmuikiMb7WSmO_EX3T7TZ68ojaXk
 
 ## Adding Candidates
 
-The Database is main to be kept fairly simple. When adding new freelancers, make sure to fill in the following rows respectively:
+The Database is main to be kept fairly simple. When adding new freelancers, make sure to confirm the seniority/quality with Seb or Otti beforehand. Once approved, fill in the following rows respectively:
 
 * Name / Surname
 * Role
