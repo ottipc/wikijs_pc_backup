@@ -35,8 +35,18 @@ if related to Design - ex: InDesign, Photoshop, Adobe, Sketch. If designers also
 #### CV
 
 Please add the respective CV under the following Nextcloud link: https://nextcloud.petitcode.com/index.php/apps/files/?dir=/Petitcode-Documents/Freelance%20Network/CVs&fileid=5067
+So far, the main Folder "CVs" has 3 Subfolders, so please copy the file in the appropriate subfolder:
+- Design
+- Software Dev
+- PM : for Product and Project Management
 
-Then, copy the file link and paste it on Excel. This will avoid anyone having to look for the specific CV on Nextcloud every time.
+
+Then:
+- right-click on the CV 
+- click on details
+- Sharing
+- click on the + sign. Then, a pop-down menu will appear **and a "copy link" icon on the left**
+- copy the file link and paste it on Excel. This will avoid anyone having to look for the specific CV on Nextcloud every time.
 
 
 ## Searching for Candidates
