@@ -12,6 +12,9 @@ To use Time Tracker properly, you simply need to follow these steps:
 3) Start timing your work
 
 
+You can find Time Tracker on the top menu bar at the far right (next to the money sack), or under this link: https://nextcloud.petitcode.com/index.php/apps/timetracker/
+
+
 ## Create Client
 
 ![Screenshot From 2019 06 11 12 16 36](/uploads/screenshot-from-2019-06-11-12-16-36.png "Screenshot From 2019 06 11 12 16 36")
