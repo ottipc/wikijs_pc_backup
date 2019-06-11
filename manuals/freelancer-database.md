@@ -28,9 +28,9 @@ ex: Front End Dev / Back End Dev / Mobile Dev / UI Designer / UI & UX Designer /
 
 **this is critical for us to be able to search and find the right people when needed** - please add every detail found in CV
 
-Development - write every programming language, tools, frameworks
+if related to Development - write every programming language, tools, frameworks
 
-Design - ex: InDesign, Photoshop, Adobe, Sketch. If designers also have front ent dev skills - write them down!
+if related to Design - ex: InDesign, Photoshop, Adobe, Sketch. If designers also have front ent dev skills - write them down!
 
 #### CV
 
