@@ -43,7 +43,7 @@ Then, copy the file link and paste it on Excel. This will avoid anyone having to
 
 You can:
 
-a) Ctrl + F : type any word (skill or role) to find all relevant results
+a) Ctrl + F : type any word (skill or role) to find all relevant results. This is the recommended approach, as you will search all fields simultaneously.
 
 b) Align Column E (Role) or any other of your interest from A to Z.
 
