@@ -35,3 +35,17 @@ Design - ex: InDesign, Photoshop, Adobe, Sketch. If designers also have front en
 #### CV
 
 Please add the respective CV under the following Nextcloud link: https://nextcloud.petitcode.com/index.php/apps/files/?dir=/Petitcode-Documents/Freelance%20Network/CVs&fileid=5067
+
+Then, copy the file link and paste it on Excel. This will avoid anyone having to look for the specific CV on Nextcloud every time.
+
+
+## Searching for Candidates
+
+You can:
+
+a) Ctrl + F : type any word (skill or role) to find all relevant results
+
+b) Align Column E (Role) or any other of your interest from A to Z.
+
+
+Happy findings.
