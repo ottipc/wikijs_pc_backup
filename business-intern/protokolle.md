@@ -93,3 +93,21 @@ I only needed your confirmation
 [12:00, 21.5.2019] Sixtine: It's a french company that specialises if POI references
 ```
 
+
+
+# Protokoll 12.6 - Seb, Guy, Tobias - Branding / Corporate Design
+
+Kernproblem: 
+
+al zu Grob - paragraph on Index
+Dienstleistungen - Textwüste nicht relevant, verlorer Vertrauen
+Beispielle, Cases, Wie machen wir was wir machen
+
+Agentur und Recruiting muss getrennt werden. GFFelder entsprichen unterschiedlichen Zielgruppen.
+
+Recruiting: "hire a senior freelancer for 800-1000 a day"
+
+wir wollen coole Projekte - diese sind direkten Kontaktabhängig und dafür wird kein SEO gebraucht
+Mit SEO, treffen wir auf Ärzte 
+
+PR statt SEO
