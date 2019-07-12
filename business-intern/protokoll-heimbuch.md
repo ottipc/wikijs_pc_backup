@@ -19,6 +19,9 @@
 * Mitarbeiter pflegen die Produkte in 
 
 * Problem : Bestandsaenderungen werden nicht abgeglichen, Mitarbeiter pflegt doppelt, das wollen wir in Zukunft nicht mehr
+
+* Shopware API : https://developers.shopware.com/developers-guide/rest-api/
+
  
 
 
