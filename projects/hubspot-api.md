@@ -52,7 +52,11 @@ Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/
 
 Email wird im update Call gespeichert:
 
-Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/update_contact
+Update Contact : https://developers.hubspot.com/docs/methods/contacts/update_contact
+
+HIer werden die Deals gespeichert :
+
+https://developers.hubspot.com/docs/methods/deals/create_deal
 
 
 
