@@ -41,6 +41,10 @@ Und wir brauchen den FTP Server dazu.*
 
 
 
+## Dokumentation
+
+https://developers.hubspot.com/docs
+
 
 
 
