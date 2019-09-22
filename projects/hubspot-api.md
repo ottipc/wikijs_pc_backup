@@ -63,6 +63,7 @@ HIer werden die Deals gespeichert :
 
 Create Contact :
 
+https://api.hubapi.com/contacts/v1/contact/?hapikey=demo
 
 `{
   "properties": [
