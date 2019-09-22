@@ -268,7 +268,7 @@ Da dies wirklich kein grosses Hexenwerk ist, wuerde ich es wirklich ganz simpel 
 Es ueberprueft einen bestimmten Ordner ( Lokal oder per ftp) nach einer neuen Csv Datei, liest diese ein und sendet einfach die Calls an die Hubspot API.
 Der Ordner wuerde zwei Unterordner besitzten, processed und errorprocessed, in die bearbeite Datei verschoben wird. 
 Evtl sendet man hier noch eine Email, das importiert wurde oder ob es etwas falsch gelaufen ist.
-Herr Timparano muesste somit nur einen automatisierten CSV export schreiben, der die CSV Datei in ein bestimmtes Verzeichnis ( oder per ftp) legt.
+Herr Timparano muesste somit nur einen automatisierten CSV export schreiben, der die CSV Datei in ein bestimmtes Verzeichnis ( oder per ftp) ablegt.
 
 Nun wuerde es dann nur noch zu klaeren geben, wo das ganze Programm deployed wird. Besitzt MacArena evtl schon einen Server. 
 Arbeiten Sie mit einer Webanwendung? Dann koennte man das alles evtl auf einem Server installieren.
