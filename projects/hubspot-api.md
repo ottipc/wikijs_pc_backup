@@ -26,19 +26,20 @@ Volumen der Buchungen(Zeit oder €)*
 Laut Herr Timparano :
 
 *es gibt in unserem System einen manuellen CSV Export der Kunden Stammdaten (Adresse, usw.) und des Rechnungs-Ausgangsjournals.
-Weitergehende Exporte gibt es bislang nicht.
-*
+Weitergehende Exporte gibt es bislang nicht.*
 
 und 
 
 *Weitere Exporte lassen sich nach euren Wünschen programmieren.
 Wie Herr Weisser schon richtig angesprochen hat handelt es sich hierbei jedoch um einen manuell angestossenen Export und die CSV Datei liegt dann
-lokal auf dem PC. 
+lokal auf dem PC.* 
 
-So wie ich es verstehe wird hier aber ein automatisierter Export in eure Hubspot Software gewünscht.
+*So wie ich es verstehe wird hier aber ein automatisierter Export in eure Hubspot Software gewünscht.
 Hierzu müsste also die CSV Datei automatisch X mal am Tag erstellt werden und dann auf einem FTP Server abgelegt werden wo sie dann
 von der Hubspot Software wiederum automatisch "abgeholt" wird und eingelesen wird. Das ganze ist natürlich schon ein grösserer Aufwand.
-Und wir brauchen den FTP Server dazu*.
+Und wir brauchen den FTP Server dazu.*
+
+
 
 
 
