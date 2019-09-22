@@ -46,6 +46,13 @@ Und wir brauchen den FTP Server dazu.*
 https://developers.hubspot.com/docs
 
 
+## Calls
+
+Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/create_or_update
+
+komischerweise hier keine Email dabei?
+
+
 
 
 
