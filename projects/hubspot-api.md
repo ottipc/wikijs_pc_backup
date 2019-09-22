@@ -170,3 +170,10 @@ https://api.hubapi.com/deals/v1/deal?hapikey=demo
 
 ![Apikey](/uploads/apikey.png "Apikey")
 
+
+## TODO 
+
+- Kunde muss sich einen API Key anlegen
+- Entscheidend in welcher Sprache? Wo wird deployed?
+- In wie weit incrementell? Wie sieht die CSV Datei aus?
+
