@@ -238,8 +238,38 @@ Api Call senden : https://www.geeksforgeeks.org/get-post-requests-using-python/
 ## Fazit
 
 Ich habe mir die Sachen genauer angeschaut.
-Tatsaechlich sind es nur zwei simple Hibspot API Calls, die anscheinend hier alles abbilden koennen.
+Tatsaechlich sind es nur zwei simple Hubspot API Calls, die anscheinend hier alles abbilden koennen.
 
-Hier muessen Herr Weissler oder Herr Prinz ueberpruefen, on die folgenden Daten fuer einen Deal
+Hier muessen Herr Weissler oder Herr Prinz ueberpruefen, on die folgenden Daten fuer einen Deal zum import reichen :
 
+Ein Deal wird im Huspot wie folgt gespeichert ( ich denke Deal entspricht einer Buchung, bitte korrigieren falls ich falsch liege)
+ 
+ - dealname
+ - dealstage
+ - pipeline
+ - hubspot_owner_id'
+ - closedate
+ - amount
+ - dealtype
 
+Gewunescht war hier : 
+
+- das Datum der getätigten Buchungen / mindestens der letzten Buchung
+- die Anzahl der getätigten Buchungen (in einem gewissen Zeitraum)
+- Volumen der Buchungen(Zeit oder €)
+
+Fuer Datum koennen wir hier closedate nehmen und die anderen Felder natuerlich auch fuellen. Fuer das Volumen verwenden wir amount.
+Fuer die Anzahl der Buchungen gibt es wahrscheinlich eine Funktion in Hubspot. 
+
+Dazu gilt es nur fuer McArena, einen Api Key in Hubspot zu generieren, bzw evtl die Authentifizierung fuer die Api zu klaeren. 
+
+Zur Implementierung :
+Da dies wirklich kein grosses Hexenwerk ist, wurde ich es wirklich ganz simpel halten. Evtl ein Python Script, das jeden Tag automatisch gestartet wird.
+Es ueberprueft einen bestimmten Ordner ( Lokal oder per ftp) nach einer neuen Csv Datei, liest diese ein und sendet einfach die Calls an die Hubspot API.
+Der Ordner wuerde zwei Unterordner besitzten, processed und errorprocessed, in die bearbeite Datei verschoben wird. 
+Evtl sendet man hier noch eine Email, das importiert wurde oder ob es etwas falsch gelaufen ist.
+Herr Timparano muesste somit nur einen automatisierten CSV export schreiben, der die CSV Datei in ein bestimmtes Verzeichnis ( oder per ftp) legt.
+
+Nun wuerde es dann nur noch zu klaeren geben, wo das ganze Programm deployed wird. Besitzt MacArena evtl schon einen Server. 
+Arbeiten Sie mit einer Webanwendung? Dann koennte man das alles evtl auf einem Server installieren.
+Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und python unterstuetzt. 
