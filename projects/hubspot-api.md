@@ -48,9 +48,9 @@ https://developers.hubspot.com/docs
 
 ## Calls
 
-Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/create_or_update
+**Create or Update Contact :** https://developers.hubspot.com/docs/methods/contacts/create_or_update
 
-**Email wird im update Call gespeichert:**
+Email wird im update Call gespeichert:
 
 **Update Contact :** https://developers.hubspot.com/docs/methods/contacts/update_contact
 
