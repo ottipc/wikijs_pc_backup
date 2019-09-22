@@ -48,6 +48,8 @@ https://developers.hubspot.com/docs
 
 ## Calls
 
+Email wird als Primary Key im Call uebergeben
+
 **Create or Update Contact :** https://developers.hubspot.com/docs/methods/contacts/create_or_update
 
 Email wird im update Call gespeichert:
