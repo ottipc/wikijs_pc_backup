@@ -50,13 +50,13 @@ https://developers.hubspot.com/docs
 
 Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/create_or_update
 
-Email wird im update Call gespeichert:
+**Email wird im update Call gespeichert:**
 
-Update Contact : https://developers.hubspot.com/docs/methods/contacts/update_contact
+**Update Contact :** https://developers.hubspot.com/docs/methods/contacts/update_contact
 
 HIer werden die Deals gespeichert :
 
-https://developers.hubspot.com/docs/methods/deals/create_deal
+**Create Deal :** https://developers.hubspot.com/docs/methods/deals/create_deal
 
 
 
