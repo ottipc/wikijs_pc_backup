@@ -50,8 +50,9 @@ https://developers.hubspot.com/docs
 
 Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/create_or_update
 
-komischerweise hier keine Email dabei?
+Email wird im update Call gespeichert:
 
+Create or Update Contact : https://developers.hubspot.com/docs/methods/contacts/update_contact
 
 
 
