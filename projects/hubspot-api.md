@@ -2,6 +2,37 @@
 <!-- SUBTITLE: A quick summary of Hubspot Api -->
 
 # Header
+## Kunde
+
+**McArena** 
+
+Matthias Prinz : mp@mcarena.de
+
+Lukas Weissler : lw@mcarena.de
+
+Lukas Weißer
+Sales & Marketing Manager
+
+McArena GmbH | Karl-Ferdinand-Braun-Straße 3 | 71522 Backnang | Deutschland
+Telefon: +49 (0) 7191 – 3789 90-1 | Mobil: +49 (0) 151 – 101 69 381
+Internet: www.mcarena.de <http://www.mcarena.de/>  | E-Mail: lw@mcarena.de <mailto:lw@mcarena.de>
+Amtsgericht Stuttgart | HRB 746642 | UID DE291895155
+
+
+**Forum media**
+
+Salvatore Timparano : st@forumedia.com
+
+Salvatore Timpanaro
+ 
+Forumedia GmbH
+Bärenstr. 8
+78054 Villingen-Schwenningen
+
+ 
+Tel. 07720-9949190
+Fax 07720-33069
+st@forumedia.com
 
 ## Anforderungen des Kunden :
 
@@ -175,8 +206,7 @@ https://api.hubapi.com/deals/v1/deal?hapikey=demo
 
 ## API Key
 
-![Apikey](/uploads/apikey.png "Apikey")
-
+0111e11e-cc6a-41ec-acfc-4539ed27d6f0
 
 ## TODO 
 
@@ -203,5 +233,13 @@ Api Call senden : https://www.geeksforgeeks.org/get-post-requests-using-python/
 - Keine Datenbank
 - Deprovisionierung von alten CSV Dateien. Verschieben in processed und errorprocessed
 - Vielleicht email senden wenn importiert wurde bzw ein Fehler geschmissen wurde
+
+
+## Fazit
+
+Ich habe mir die Sachen genauer angeschaut.
+Tatsaechlich sind es nur zwei simple Hibspot API Calls, die anscheinend hier alles abbilden koennen.
+
+Hier muessen Herr Weissler oder Herr Prinz ueberpruefen, on die folgenden Daten fuer einen Deal
 
 
