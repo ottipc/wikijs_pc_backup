@@ -59,5 +59,106 @@ HIer werden die Deals gespeichert :
 **Create Deal :** https://developers.hubspot.com/docs/methods/deals/create_deal
 
 
+## Json
 
+Create Contact :
+
+
+`{
+  "properties": [
+    {
+      "property": "email",
+      "value": "testingapis@hubspot.com"
+    },
+    {
+      "property": "firstname",
+      "value": "Adrian"
+    },
+    {
+      "property": "lastname",
+      "value": "Mott"
+    },
+    {
+      "property": "website",
+      "value": "http://hubspot.com"
+    },
+    {
+      "property": "company",
+      "value": "HubSpot"
+    },
+    {
+      "property": "phone",
+      "value": "555-122-2323"
+    },
+    {
+      "property": "address",
+      "value": "25 First Street"
+    },
+    {
+      "property": "city",
+      "value": "Cambridge"
+    },
+    {
+      "property": "state",
+      "value": "MA"
+    },
+    {
+      "property": "zip",
+      "value": "02139"
+    }
+  ]
+}`
+
+
+
+
+
+
+Create Deal :
+
+
+https://api.hubapi.com/deals/v1/deal?hapikey=demo
+
+
+`{
+  "associations": {
+    "associatedCompanyIds": [
+      8954037
+    ],
+    "associatedVids": [
+      27136
+    ]
+  },
+  "properties": [
+    {
+      "value": "Tim's Newer Deal",
+      "name": "dealname"
+    },
+    {
+      "value": "appointmentscheduled",
+      "name": "dealstage"
+    },
+    {
+      "value": "default",
+      "name": "pipeline"
+    },
+    {
+      "value": "24",
+      "name": "hubspot_owner_id"
+    },
+    {
+      "value": 1409443200000,
+      "name": "closedate"
+    },
+    {
+      "value": "60000",
+      "name": "amount"
+    },
+    {
+      "value": "newbusiness",
+      "name": "dealtype"
+    }
+  ]
+}
+`
 
