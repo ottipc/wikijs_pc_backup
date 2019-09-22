@@ -271,5 +271,5 @@ Evtl sendet man hier noch eine Email, das importiert wurde oder ob es etwas fals
 Herr Timparano muesste somit nur einen automatisierten CSV export schreiben, der die CSV Datei in ein bestimmtes Verzeichnis ( oder per ftp) ablegt.
 
 Nun wuerde es dann nur noch zu klaeren geben, wo das ganze Programm deployed wird. Besitzt MacArena evtl schon einen Server. 
-Arbeiten Sie mit einer Webanwendung? Dann koennte man das alles evtl auf einem Server installieren.
+Arbeiten Sie mit einer Webanwendung? Dann koennte man das alles auf einem Server installieren.
 Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und python unterstuetzt. 
