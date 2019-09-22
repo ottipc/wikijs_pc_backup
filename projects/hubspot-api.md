@@ -264,7 +264,7 @@ Fuer die Anzahl der Buchungen gibt es wahrscheinlich eine Funktion in Hubspot.
 Dazu gilt es nur fuer McArena, einen Api Key in Hubspot zu generieren, bzw evtl die Authentifizierung fuer die Api zu klaeren. 
 
 Zur Implementierung :
-Da dies wirklich kein grosses Hexenwerk ist, wurde ich es wirklich ganz simpel halten. Evtl ein Python Script, das jeden Tag automatisch gestartet wird.
+Da dies wirklich kein grosses Hexenwerk ist, wuerde ich es wirklich ganz simpel halten. Evtl ein Python Script, das jeden Tag automatisch gestartet wird.
 Es ueberprueft einen bestimmten Ordner ( Lokal oder per ftp) nach einer neuen Csv Datei, liest diese ein und sendet einfach die Calls an die Hubspot API.
 Der Ordner wuerde zwei Unterordner besitzten, processed und errorprocessed, in die bearbeite Datei verschoben wird. 
 Evtl sendet man hier noch eine Email, das importiert wurde oder ob es etwas falsch gelaufen ist.
