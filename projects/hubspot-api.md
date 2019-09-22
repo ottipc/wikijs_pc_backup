@@ -204,3 +204,4 @@ Api Call senden : https://www.geeksforgeeks.org/get-post-requests-using-python/
 - Deprovisionierung von alten CSV Dateien. Verschieben in processed und errorprocessed
 - Vielleicht email senden wenn importiert wurde bzw ein Fehler geschmissen wurde
 
+
