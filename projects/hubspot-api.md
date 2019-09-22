@@ -67,7 +67,9 @@ Create Contact :
 
 https://api.hubapi.com/contacts/v1/contact/?hapikey=demo
 
-`{
+
+```json
+{
   "properties": [
     {
       "property": "email",
@@ -110,7 +112,9 @@ https://api.hubapi.com/contacts/v1/contact/?hapikey=demo
       "value": "02139"
     }
   ]
-}`
+}
+
+```
 
 
 
@@ -123,7 +127,9 @@ Create Deal :
 https://api.hubapi.com/deals/v1/deal?hapikey=demo
 
 
-`{
+
+```json
+{
   "associations": {
     "associatedCompanyIds": [
       8954037
@@ -163,7 +169,8 @@ https://api.hubapi.com/deals/v1/deal?hapikey=demo
     }
   ]
 }
-`
+```
+
 
 
 ## API Key
