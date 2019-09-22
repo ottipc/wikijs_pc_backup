@@ -176,4 +176,24 @@ https://api.hubapi.com/deals/v1/deal?hapikey=demo
 - Kunde muss sich einen API Key anlegen
 - Entscheidend in welcher Sprache? Wo wird deployed?
 - In wie weit incrementell? Wie sieht die CSV Datei aus?
+- Herr Timparano muss somit nur den automatischen Export in ein Verzeichnis programmieren. Evtl auch cron?
+
+
+## Python
+
+CSV einlesen : https://realpython.com/python-csv/
+
+Api Call senden : https://www.geeksforgeeks.org/get-post-requests-using-python/
+
+
+## Implementierung
+
+- Evtl Python Script ueber normalen cron getriggert
+- Script geht ueber Verzeichnis und schaut welche Datei noch nicht in processed oder errorprocessed ist
+- neue CSV Dateien einlesen
+- Validierung?
+- Api Calls zusammenbauen und senden
+- Keine Datenbank
+- Deprovisionierung von alten CSV Dateien. Verschieben in processed und errorprocessed
+- Vielleicht email senden wenn importiert wurde bzw ein Fehler geschmissen wurde
 
