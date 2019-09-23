@@ -9,3 +9,11 @@ https://server217.campusspeicher.de:8443/smb/
 
 
 ![Lets Encrypt](/uploads/lets-encrypt.png "Lets Encrypt")
+
+
+Lets Enrypt auswaehlen :
+
+![Zertifikat Im Panel](/uploads/zertifikat-im-panel.png "Zertifikat Im Panel")
+
+-----
+
