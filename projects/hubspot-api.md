@@ -273,3 +273,24 @@ Herr Timparano muesste somit nur einen automatisierten CSV export schreiben, der
 Nun wuerde es dann nur noch zu klaeren geben, wo das ganze Programm deployed wird. Besitzt MacArena evtl schon einen Server. 
 Arbeiten Sie mit einer Webanwendung? Dann koennte man das alles auf einem Server installieren.
 Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und python unterstuetzt. 
+
+## Schaetzung
+
+### Api Prozessor
+
+	- Implementierung des CSV Reader (mit Ftp oder aehnliches) : 1 Manntag
+	- Implementierung der Api Aufrufe (inkl Testen) : 2 Manntage
+	- Implementierung des Datei Prozessors und der versendeten Emails : 1 Manntag
+	- Produktivfuehrung und Testen : 1 Manntag
+
+
+### CSV export
+		
+		- Implementierung des Zusammenbaus der CSV : 1 Manntag
+		- Anlegen des Jobs und Implementierung des Dateiprozessors : 1 Manntag
+	 
+
+
+
+
+
