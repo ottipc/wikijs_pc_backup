@@ -286,8 +286,8 @@ Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und 
 
 ### CSV export
 		
-		- Implementierung des Zusammenbaus der CSV : 1 Manntag
-		- Anlegen des Jobs und Implementierung des Dateiprozessors : 1 Manntag
+	- Implementierung des Zusammenbaus der CSV : 1 Manntag
+	- Anlegen des Jobs und Implementierung des Dateiprozessors : 1 Manntag
 	 
 
 
