@@ -291,7 +291,35 @@ Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und 
 	- Anlegen des Jobs und Implementierung des Dateiprozessors : 1 Manntag
 	 
 
+## Stand 27.09.2019
+   
+Aufgaben nun unterteil nach Schaetzungen.
 
+Todo der einzelnen Teilnehmer :
+
+**McArena**
+
+- Bereitstellen des Api Keys und eventuell eines Testbenutzers
+- Bereitstellen eines Servers bzw Ueberlegungen zur Infrastruktur
+- Eventuell Bereistellung einer Email Adresse. Diese wird als Absenderadresse verwendet, sofern ein Import durchgelaufen ist.
+- Genaue Zusammenstellung der Daten, wie sie im Hubspot stehen
+
+Die Dokumentation des Hubspots ist nur auf englisch (https://developers.hubspot.com/docs/overview). Somit muessen wir rausfinden, welche Attribute wir verwenden. Da McArena das bis jetzt manuell macht und es moeglich ist, sollte es nicht so schwer sein, die jeweilligen Api Aufrufe heraus zu finden. Evtl Hubspot einfach mal auf englisch stellen und so vorgehen wie gewohnt. Somit sollten die englischen Äquivalente erscheinen ( z.B. der englische Name fuer Buchung im Hubspot) 
+
+**Forumedia**
+
+-  Die Metastruktur der CSV festlegen ( Spaltennamen, Typen der Werte. etc) 
+-  Bereistellen der CSV Dateien auf einem Server
+
+**Ottavio**
+
+So wie in den Schaetzungen definiert :
+
+- Implementierung des CSV Reader
+- Implementierung der API Aufrufe
+- Implementierung des Dateiprozessors und der versendeten Email
+- Produktivfuehrung und Testen
+ 
 
 
 
