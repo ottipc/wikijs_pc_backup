@@ -278,6 +278,7 @@ Sofern nicht, gilt es evlt einen minimalistischem Server zu mieten, der ftp und 
 
 ### Api Prozessor
 
+	- Recherche und Dokumentation : 1 Manntag
 	- Implementierung des CSV Reader (mit Ftp oder aehnliches) : 1 Manntag
 	- Implementierung der Api Aufrufe (inkl Testen) : 2 Manntage
 	- Implementierung des Datei Prozessors und der versendeten Emails : 1 Manntag
