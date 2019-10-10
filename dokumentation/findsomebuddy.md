@@ -21,3 +21,8 @@ Download complete Doku : [20190106 En Fsb Doku Collection V 1](/uploads/20190106
 Application REST Doku : [Application Rest Doc](/uploads/application-rest-doc.docx "Application Rest Doc")
 
 
+## Environment
+
+Staging : https://fsb.fermicoding.com/ 
+Dev : https://fsbd.fermicoding.com/ 
+
