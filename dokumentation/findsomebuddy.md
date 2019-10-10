@@ -11,4 +11,4 @@ IP : 185.158.212.77
 
 ## Database
 
-[Fsb](/uploads/fsb.sql "Fsb")
+Download FSB Dump [Fsb](/uploads/fsb.sql "Fsb")
