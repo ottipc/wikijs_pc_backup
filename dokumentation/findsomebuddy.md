@@ -1,3 +1,668 @@
+
+```javascript
+var Routes = new Array();
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/all-notifications",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/notification_controller', request, reply).all();
+		},
+        auth: {
+            strategy: 'token',
+			mode : "try"
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/auth/facebook",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).facebook();
+	}
+})
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/signup",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).signup();
+	}
+})
+
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/signin",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).signin();
+	}
+})
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/forgot-password",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).forgotPassword();
+	}
+})
+
+Routes.push({
+	method : "GET",
+	path  : "/password_reminder/{token}",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).formUpdatePassword();
+	}
+})
+
+Routes.push({
+	method : "POST",
+	path  : "/password_reminder/{token}",
+	handler : function(request, reply){
+		return helper.controller('api/api_authenticate', request, reply).updatePassword();
+	}
+})
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/users/{user_id}/invite/{friend_id}/game/{game_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/invitation_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "PUT",
+	path  : "/api/v1/invitation/{invitation_id}/{type}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/invitation_controller', request, reply).update();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/users",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token',
+			mode : 'try'
+        }
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/users/{user_id}/avatar",
+	config : {
+
+        payload: {
+            output: 'stream',
+            maxBytes: 50000000,
+            parse: true,
+            allow: 'multipart/form-data'
+        },		
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).uploadAvatar();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+server.route({
+    method: 'GET',
+    path: '/{param*}',
+    handler: {
+        directory: {
+            path: base_dir+'/public',
+            listing: true
+        }
+    }
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/users",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/users/{user_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).show();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "PUT",
+	path  : "/api/v1/users/{user_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).update();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/users/{user_id}/sports",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_sport_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}	
+});
+
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/users/{user_id}/sports",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_sport_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        },
+        payload: {
+            output: 'data',   // These are default options
+            parse: true       // These are default options
+        }
+	}	
+});
+
+
+Routes.push({
+	method : "DELETE",
+	path  : "/api/v1/users/{user_id}/sports/{sport_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_sport_controller', request, reply).destroy();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}	
+});
+
+
+// Sports
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/sports",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/sport_controller', request, reply).index();
+		}	
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/sports",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/sport_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "DELETE",
+	path  : "/api/v1/sports/{sport_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/user_controller', request, reply).destroy();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/sports/types",
+	config : {
+		handler : function(request, reply){
+			return helper.controller('api/sport_controller', request, reply).get_sport_types();
+		},
+		auth: {
+			strategy: 'token'
+		}
+	}
+});
+// end
+
+
+
+// Locations
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/users/{user_id}/locations",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/location_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/users/{user_id}/locations",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/location_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "DELETE",
+	path  : "/api/v1/users/{user_id}/locations/{location_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/location_controller', request, reply).destroy();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+// end
+
+
+// Games
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/users/{user_id}/games",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/games/{game_id}",
+	config : {
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).show();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/games",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/games/{game_id}/notification",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).notification();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "PUT",
+	path  : "/api/v1/games/{game_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).update();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/games/{game_id}/sendRequest",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).attachRequest();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "DELETE",
+	path  : "/api/v1/games/{game_id}/leave",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/game_controller', request, reply).leave();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+// end
+
+
+
+// Requests
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/requests/{request_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/request_controller', request, reply).show();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});	
+
+Routes.push({
+	method : "PUT",
+	path  : "/api/v1/requests/{request_id}/{request_status}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/request_controller', request, reply).update();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});	
+// end
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/filter/sports/{id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/filter_controller', request, reply).bySport();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/filter",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/filter_controller', request, reply).custom();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/notifications",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/notification_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/notifications/seenAll",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/notification_controller', request, reply).seen();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/notifications/count",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/notification_controller', request, reply).count();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/chat/games/{game_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/chat_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/chat/games/{game_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/chat_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/venues/{venue_id}",
+	config : {
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).show();
+		},
+        auth: {
+            strategy: 'token'
+        }
+	}
+});
+
+
+
+
+
+
+
+Routes.push({
+	method : "GET",
+	path  : "/api/v1/venues",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).index();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/venues",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).store();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "PUT",
+	path  : "/api/v1/venues/{venue_id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).update();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "POST",
+	path  : "/api/v1/venues/{id}/photos",
+	config : {	
+        payload: {
+            output: 'stream',
+            maxBytes: 50000000,
+            parse: true,
+            allow: 'multipart/form-data'
+        },		
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).upload();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "DELETE",
+	path  : "/api/v1/venues/{id}",
+	config : {	
+		handler : function(request, reply){
+			return helper.controller('api/venue_controller', request, reply).destroy();
+		},
+        auth: {
+            strategy: 'token'
+        }		
+	}
+});
+
+Routes.push({
+	method : "GET",
+	path  : "/test/gcm",
+	config : {	
+		handler : function(request, reply){
+			helper.send_gcm({
+				tokens : [request.query.gcm],
+				from : 1,
+				to : 1,
+				message  : 'Test GCM',
+				title : 'test gcm by fsb',
+				body : 'Test GCM',
+				type : 'message',
+				seen : 0,
+				target_id : 0
+			}, function(err, response){
+				return reply({
+					err : err,
+					res : response
+				})
+				console.log('info', err);
+				console.log('info', response);						
+			});			
+		}	
+	}
+});
+
+
+Routes.push({
+	method : "POST",
+	path  : "/admin/signin",
+	handler : function(request, reply){
+		return helper.controller('admin/api_authenticate', request, reply).signin();
+	}
+})
+
+
+module.exports = Routes;
+
+```
 <!-- TITLE: Findsomebuddy -->
 <!-- SUBTITLE: A quick summary of Findsomebuddy -->
 
