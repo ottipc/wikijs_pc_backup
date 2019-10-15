@@ -23,8 +23,31 @@ Application REST Doku : [Application Rest Doc](/uploads/application-rest-doc.doc
 
 ## Environment
 
-Staging : https://fsb.fermicoding.com/ 
-Dev : https://fsbd.fermicoding.com/ 
+Dev : https://findsomebuddy.de/api/v2 
+
+Live : https://findsomebuddy.de/api/v1 
+
+
+
+### Test Environment
+
+For Developing and Testing we have /api/v2
+
+It is a different application AND Database.
+
+Please see example on Schreenshot
+
+![Manual Calls](/uploads/manual-calls.png "Manual Calls")
+
+
+
+**Authentication :** 
+
+In the Header Section, use 
+
+*Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAyNywiZW1haWwiOiJqaGFuaWhhc2hlbWlAZ21haWwuY29tIiwiaWF0IjoxNDkwNDU1MTU4fQ.5SkXcqORLxFGU-hlak3GLW6rkybOECX5dJz4LlGoZmM*
+
+
 
 
 
