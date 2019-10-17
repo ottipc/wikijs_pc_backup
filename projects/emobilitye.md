@@ -1,7 +1,7 @@
-<!-- TITLE: Emobilitye -->
-<!-- SUBTITLE: A quick summary of Emobilitye -->
+<!-- TITLE: Mobilitye.eu -->
+<!-- SUBTITLE: A quick summary of Mobilitye.eu -->
 
-# Emobilitye
+# Mobilitye.eu
 
 ## Environment
 
