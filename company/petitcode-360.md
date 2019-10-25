@@ -22,7 +22,9 @@ USE:
 3.	Creating a Subpage on the Website and a Landing Page
 
 
-# Services of personal concierage service (find new word - petitcode 360°)
+# Services 
+
+-- of personal concierage service (find new word - petitcode 360°)
 
 ## accounting
 
