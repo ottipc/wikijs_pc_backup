@@ -34,7 +34,16 @@ All other Folders are only visible for the User, who created it.
 
 ## User and Folder Management
 
+- In nextcloud it is possible to access users by a defined usergroup.
+- only user in group "admin" are able to define accessed based group directories.
+- At the moment we have 4 access groups : admin, guest, extern, petitcode
+
+**1. Define group for the users**
+
 ![Nextcluod Groups](/uploads/nextcluod-groups.png "Nextcluod Groups")
+
+
+**2. Define access rights for the directories**
 
 ![Folder Groups](/uploads/folder-groups.png "Folder Groups")
 
