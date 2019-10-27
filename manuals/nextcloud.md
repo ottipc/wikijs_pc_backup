@@ -48,6 +48,11 @@ All other Folders are only visible for the User, who created it.
 ![Folder Groups](/uploads/folder-groups.png "Folder Groups")
 
 
+**3. Showing the accessed directories**
+
+![Groupbased Dir](/uploads/groupbased-dir.png "Groupbased Dir")
+
+
 
 
 
