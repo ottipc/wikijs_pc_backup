@@ -31,6 +31,20 @@ The Petitcode-Documents Folder is shared with all Members of Petitcode.
 ### Others
 All other Folders are only visible for the User, who created it.
 
+
+## User and Folder Management
+
+![Nextcluod Groups](/uploads/nextcluod-groups.png "Nextcluod Groups")
+
+![Folder Groups](/uploads/folder-groups.png "Folder Groups")
+
+
+
+
+
+
+
+
 ## Problems
 
 ### Not able to upload files with large file size
