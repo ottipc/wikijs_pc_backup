@@ -1,5 +1,5 @@
-<!-- TITLE: Estimate Projects -->
-<!-- SUBTITLE: A quick summary of Estimate Projects -->
+<!-- TITLE: Estimating Projects -->
+<!-- SUBTITLE: A quick summary of Estimating Projects -->
 
 # Estimate a project
 
