@@ -15,3 +15,5 @@ You can also upload them on Nextcloud : https://nextcloud.petitcode.com/index.ph
 ## Anything else
 
 Scan and send to seb@petitcode.com and guy@petitcode.com
+
+THIS PAGE NEEDS REWORKING ASAP!!
