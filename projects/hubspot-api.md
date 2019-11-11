@@ -327,3 +327,6 @@ Name : petitcode-dev-6703886.com
 url : https://app.hubspot.com/reports-dashboard/6703886/sales
 
 hubspot_test:%ST~x~YxJ%7!A/e3
+
+
+https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-specific-dir-access-only-on-a-centos-linux-ins
