@@ -334,18 +334,18 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 ## TODO
 - Properties im Hubspot anlegen:
 
-* Login
-* Mitglied-Status
-* Mobil
-* Fax
-* Mg.Nr
-* Geburtstag
-* Mehrwertsteuer
-* Kontoinhaber
-* Kontonummer
-* Bankleitzahl
-* Name der Bank
-* IBAN
-* BIC
-* SEPA Mandat vom
-* SEPA Refrenz
+* Login : Einzeiliger Text
+* Mitglied-Status : Einzeiliger Text
+* Mobil : Einzeiliger Text
+* Fax : Einzeiliger Text (schon angelegt)
+* Mg.Nr : Formatierte Zahl
+* Geburtstag : Datumsauswahl
+* Mehrwertsteuer : Einzeiliger Text
+* Kontoinhaber : Einzeiliger Text
+* Kontonummer : Einzeiliger Text
+* Bankleitzahl : Zahl
+* Name der Bank : Einzeiliger Text
+* IBAN : Einzeiliger Text
+* BIC : Einzeiliger Text
+* SEPA Mandat vom : Datumsauswahl
+* SEPA Refrenz : Einzeiliger Text
