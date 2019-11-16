@@ -330,3 +330,22 @@ hubspot_test:%ST~x~YxJ%7!A/e3
 
 
 https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-specific-dir-access-only-on-a-centos-linux-ins
+
+## TODO
+- Properties im Hubspot anlegen:
+
+* Login
+* Mitglied-Status
+* Mobil
+* Fax
+* Mg.Nr
+* Geburtstag
+* Mehrwertsteuer
+* Kontoinhaber
+* Kontonummer
+* Bankleitzahl
+* Name der Bank
+* IBAN
+* BIC
+* SEPA Mandat vom
+* SEPA Refrenz
