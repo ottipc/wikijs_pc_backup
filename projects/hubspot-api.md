@@ -344,5 +344,5 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 * Name der Bank : Einzeiliger Text
 * IBAN : Einzeiliger Text
 * BIC : Einzeiliger Text
-* SEPA Mandat vom : Datumsauswahl ->sepa_mandat_vom
+* SEPA Mandat vom : Einzeiliger Text ->sepa_mandat_vom
 * SEPA Referenz : Einzeiliger Text ->sepa_referenz
