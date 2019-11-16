@@ -336,10 +336,8 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 
 * Login : Einzeiliger Text
 * Mitglied-Status : Einzeiliger Text
-* Mobil : Einzeiliger Text
 * Fax : Einzeiliger Text (schon angelegt)
 * Mg.Nr : Formatierte Zahl
-* Geburtstag : Datumsauswahl
 * Mehrwertsteuer : Einzeiliger Text
 * Kontoinhaber : Einzeiliger Text
 * Kontonummer : Einzeiliger Text
