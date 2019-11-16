@@ -332,12 +332,11 @@ hubspot_test:%ST~x~YxJ%7!A/e3
 https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-specific-dir-access-only-on-a-centos-linux-ins
 
 ## TODO
-- Properties im Hubspot anlegen:
+- Properties im Hubspot anlegen:   (Die Api will alle Properties mit unterstrich statt Sonderzeichen und alles klein)
 
 * Login : Einzeiliger Text
-* Mitglied-Status : Einzeiliger Text
-* Fax : Einzeiliger Text (schon angelegt)
-* Mg.Nr : Formatierte Zahl
+* Mitglied-Status : Einzeiliger Text ->mitglied_status
+* Mg.Nr : Formatierte Zahl ->mg_nr
 * Mehrwertsteuer : Einzeiliger Text
 * Kontoinhaber : Einzeiliger Text
 * Kontonummer : Einzeiliger Text
@@ -346,4 +345,4 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 * IBAN : Einzeiliger Text
 * BIC : Einzeiliger Text
 * SEPA Mandat vom : Datumsauswahl ->sepa_mandat_vom
-* SEPA Refrenz : Einzeiliger Text
+* SEPA Referenz : Einzeiliger Text ->sepa_referenz
