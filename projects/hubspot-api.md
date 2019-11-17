@@ -346,3 +346,9 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 * BIC : Einzeiliger Text
 * SEPA Mandat vom : Einzeiliger Text ->sepa_mandat_vom
 * SEPA Referenz : Einzeiliger Text ->sepa_referenz
+
+## Forummedia
+zu CSV hinzufuegen
+
+* Datum der letzten Buchung
+* Wert der letzten Buchung
