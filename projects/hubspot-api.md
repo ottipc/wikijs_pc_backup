@@ -355,4 +355,7 @@ zu CSV hinzufuegen
 
 * Datum der letzten Buchung
 * Wert der letzten Buchung
-* Kontaktkategorie[Test Hubspot](/uploads/test-hubspot.csv "Test Hubspot")
+* Kontaktkategorie
+
+
+CSV Datei : [Test Hubspot](/uploads/test-hubspot.csv "Test Hubspot")
