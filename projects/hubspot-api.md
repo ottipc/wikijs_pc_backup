@@ -346,9 +346,13 @@ https://unix.stackexchange.com/questions/83221/how-to-create-a-ftp-user-with-spe
 * BIC : Einzeiliger Text
 * SEPA Mandat vom : Einzeiliger Text ->sepa_mandat_vom
 * SEPA Referenz : Einzeiliger Text ->sepa_referenz
+* Datum der letzten Buchung : Einzeiliger Text
+* Wert der letzten Buchung : Einzeiliger Text
+* Kontaktkategorie : Einzeiliger Text
 
 ## Forummedia
 zu CSV hinzufuegen
 
 * Datum der letzten Buchung
 * Wert der letzten Buchung
+* Kontaktkategorie[Test Hubspot](/uploads/test-hubspot.csv "Test Hubspot")
