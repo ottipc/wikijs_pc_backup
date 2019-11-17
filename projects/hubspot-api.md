@@ -359,3 +359,7 @@ zu CSV hinzufuegen
 
 
 CSV Datei : [Test Hubspot](/uploads/test-hubspot.csv "Test Hubspot")
+
+## Testserver
+
+user : hubspot_test:bUvnTC4axR.8ss$F
