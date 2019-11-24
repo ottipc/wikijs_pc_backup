@@ -370,3 +370,7 @@ touch /var/log/call_hubspot_api.log
 ## Hubspot App
 
 ![Createhubspotapp](/uploads/createhubspotapp.png "Createhubspotapp")
+
+## App Integration
+
+![App Integration Hubspot](/uploads/app-integration-hubspot.png "App Integration Hubspot")
