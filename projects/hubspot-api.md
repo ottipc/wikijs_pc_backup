@@ -389,6 +389,9 @@ touch /var/log/call_hubspot_api.log
 
 Link to Application in Hubspot : https://app.hubspot.com/developer/6454294/application/207175
 
+OAuth Petitcode Dev : https://app.hubspot.com/oauth/authorize?e5851295-49ed-499d-be6f-6c7423526a87&redirect_uri=https://app.hubspot.com/reports-dashboard/6703886/sales&scope=contacts
+
+
 OAuth-URL: https://app.hubspot.com/oauth/authorize?client_id=b1765eff-44de-4ec1-a7c7-34b51937c85a&scope=contacts
 App-ID: 207219
 Client-ID: b1765eff-44de-4ec1-a7c7-34b51937c85a
