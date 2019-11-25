@@ -374,3 +374,24 @@ touch /var/log/call_hubspot_api.log
 ## App Integration
 
 ![App Integration Hubspot](/uploads/app-integration-hubspot.png "App Integration Hubspot")
+
+
+# Production
+
+### Create Dirs
+
+
+
+
+
+### McArena Data
+
+
+Link to Application in Hubspot : https://app.hubspot.com/developer/6454294/application/207175
+
+OAuth-URL: https://app.hubspot.com/oauth/authorize?client_id=b1765eff-44de-4ec1-a7c7-34b51937c85a&scope=contacts
+App-ID: 207219
+Client-ID: b1765eff-44de-4ec1-a7c7-34b51937c85a
+Client-Geheimnis: 24c49620-6252-4c19-b6b9-9154d0738b70
+
+
