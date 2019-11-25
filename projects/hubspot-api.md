@@ -361,8 +361,8 @@ zu CSV hinzufuegen
 CSV Datei : [Test Hubspot](/uploads/test-hubspot.csv "Test Hubspot")
 
 ## Testserver
-
-user : hubspot_test:bUvnTC4axR.8ss$F
+server : 37.61.202.252
+user : hubspot_test:9LNh5Sted>xqsDDf
 touch /var/log/call_hubspot_api.log
 /tmp/call_hubspot_api-lock
 
@@ -380,6 +380,9 @@ touch /var/log/call_hubspot_api.log
 
 ### Create Dirs
 
+mkdir -p /home/hubspot_test/csvfiles/processed
+
+mkdir -p /home/hubspot_test/csvfiles/errorprocessed
 
 ###
 
