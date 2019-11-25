@@ -381,6 +381,13 @@ touch /var/log/call_hubspot_api.log
 ### Create Dirs
 
 
+###
+
+App definieren : 
+https://app.hubspot.com/developer/6454294/application/207175
+
+Hier muss aus die **Rewrite Url** definiert sein.
+Diese muss so heissen wie dann spaeter in der OAuth Url verwendet.
 
 
 
@@ -396,5 +403,14 @@ OAuth-URL: https://app.hubspot.com/oauth/authorize?client_id=b1765eff-44de-4ec1-
 App-ID: 207219
 Client-ID: b1765eff-44de-4ec1-a7c7-34b51937c85a
 Client-Geheimnis: 24c49620-6252-4c19-b6b9-9154d0738b70
+Rewrite Url : 
+
+McArena OAuth : https://app.hubspot.com/oauth/authorize?client_id=b1765eff-44de-4ec1-a7c7-34b51937c85a&redirect_uri=https://app.hubspot.com/reports-dashboard/6703886/sales&scope=contacts
+
+
+## get Token
+
+
+
 
 
