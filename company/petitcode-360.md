@@ -1,5 +1,5 @@
-<!-- TITLE: Petitcode 360 -->
-<!-- SUBTITLE: A quick summary of Petitcode 360 -->
+<!-- TITLE: Petitcode 360° -->
+<!-- SUBTITLE: A quick summary of Petitcode 360° -->
 
 # Overview
 
@@ -12,9 +12,10 @@ Offload your Bullshit and get the more time for the good shit!
 Responsible for launch/ Supervisor: Axel and Seb
 
 
-Version: 0.1
+Version: 0.2
 
-Due Date: 21.10.2019
+
+Due Date: 21.12.2019
 
 USE: 
 1.	Internal Understanding of Business Model
