@@ -417,6 +417,10 @@ McArena OAuth : https://app.hubspot.com/oauth/authorize?client_id=b1765eff-44de-
 
 Refresh Token : 0ac1531a-347d-4c04-8266-c26ce1247f38
 
+### Zu klaren mit ETES
+
+- ssh port verschieben
+
 
 
 
