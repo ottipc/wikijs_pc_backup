@@ -22,11 +22,22 @@ USE:
 3.	Creating a Subpage on the Website and a Landing Page
 
 
+# Prices
+
+## S 99€ 
+## M 199 
+## L 399
+## Entreprise on Request 
+
+
+
 # Services 
 
 -- of personal concierage service (find new word - petitcode 360°)
 
 ## accounting
+
+### Different Packages! ( FastBill!!!! - Seb)
 
 ## Phone
 
@@ -42,13 +53,28 @@ USE:
 
 ## physical mail 
 
+
 ### caya service (Fake it until you make it)
 
 ### postnachsende 
 
 ### smartcontracts 
 
+## booking agency
+
+### Flights, train and co.
+
 ## mail 
+
+## tech basic schulung 
+
+## hosting
+
+## updates/ sicherheit
+
+## Domain
+
+## Infrastructure 
 
 
 
