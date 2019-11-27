@@ -77,6 +77,11 @@ USE:
 
 ## Infrastructure 
 
+## Investment / Altervorsoge 
+
+### Crypto
+### Company builder/ portfolio management 
+
 
 
 
