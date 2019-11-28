@@ -430,6 +430,14 @@ Repository :
 git@github.com:ottipc/tool_hubspot_migration.git
 
 
+## Live Server
+
+SSH-Server: web-02.etes.de
+SSH-Port: 22
+SSH-Benutzer: mcarena
+SSH-Passwort: Ais0ahRu
+
+
 
 
 
