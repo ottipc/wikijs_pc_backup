@@ -2,7 +2,7 @@
 <!-- SUBTITLE: A quick summary of Company -->
 
 
-
+<a href="https://wiki.petitcode.com/company/free-vermittlung">Was passiert</a>
 
 
 # <a href="https://wiki.petitcode.com/company/free-vermittlung"> FREE Vermittlung </a>
