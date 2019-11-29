@@ -2,20 +2,13 @@
 <!-- SUBTITLE: A quick summary of Company -->
 
 
-<a href="https://wiki.petitcode.com/company/free-vermittlung">Was passiert</a>
+## INDEX
 
-
-# <a href="https://wiki.petitcode.com/company/free-vermittlung"> FREE Vermittlung </a>
+<a href="https://wiki.petitcode.com/company/charity-merchandise">1. Charity Merchandise</a>
+<a href="https://wiki.petitcode.com/company/codeshow">2. Codeshow</a>
+<a href="https://wiki.petitcode.com/company/petitcode-360">3. Petitcode 360°</a>
+<a href="https://wiki.petitcode.com/company/treuhandkonto-investmentoption">4. Treuhandkonto und Investmentoptions</a>
  
-
-
-
-
-
-
-
-
-
 
 # FTE Vermittlung 
 
