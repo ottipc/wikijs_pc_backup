@@ -445,3 +445,5 @@ SSH-Passwort: Ais0ahRu
 
 
 Error: Error at Importing : time data '..' does not match format '%d.%m.%Y' : 48
+Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : time data '..' does not match format '%d.%m.%Y' in Line : 70
+
