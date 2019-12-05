@@ -543,4 +543,28 @@ h2. Exception auf Live
 }
 
 
+## Stand
 
+Hi, also der Impoter laeuft jetzt. Ihr solltet schon erste Mails bekommen haben. Schaut bitte auch im Spam Ordner nach. 
+Ich habe jetzt mal nur CSV Dateien mir einer Zeile genommen. Eine kaputte, und eine richtige, das ihr die Testmails seht.
+Die kaputten werden mit Zeitstempel in den ordner errorprocessed verschoben, wie man in der Email sieht.
+Und die korrekten in den Ordner processed. Auch diese haben den Zeitstempel im Dateinamen, das man sieht, wann sie importiert wurden.
+
+Uebrigens wollt ich noch bemerken, das ihr folgende Attribute ja nicht im Hubspot habt :
+
+Der Importer sowie der CSV Export die Daten aber besitzen. Ihr muesstes sie nur im Hubspot wie oben beschrieben anlegen, dann koennen die ohne weiteres auch mit importiert werden.
+Der Importer laeuft alle halbe Stunde.
+Es liegt auf dem Server noch eine Datei rum in der ich die Fehler aus der grossen behoben habe. Es sind ungefaehr 430 Saetze und laesst sich komplett importieren : export-schorndorf_2019_12_05.corrected.csv
+Diese habe ich nocht nicht auf eurem System importiert. Doch wenn ihr das ok gibt, werde ich diese importieren.
+
+Ihr koennte diese auch selber auf dem Server von "processed" in den ordner "csvfiles" schieben, um eventuell schon mal zu sehen, wie das eigentlich funktioniert.
+Sie wird alle 30 Minuten abgeholt, importiert, verschoben.
+Ist eine Zeile kaputt im csv, so wird die Datei in errorprocessed verschoben und ihr bekommt eine Mail mit dem Dateinamen und der Zeile.
+
+Ein update funktioniert ueber die Email. Ist die Email gleich, wird somit kein neuer angelegt.
+
+Auf den etes Server werde ich es die naechsten Tage spielen. Macht fuer euch den Unterschied, das ihr einen anderen ftp account benutzt.
+
+Gruesse
+
+Ottavio
