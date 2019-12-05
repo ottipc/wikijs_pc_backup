@@ -464,5 +464,83 @@ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.cor
 Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : {"validationResults":[{"isValid":false,"message":"Email address test_fm is invalid","error":"INVALID_EMAIL","name":"email"}],"status":"error","message":"Property values were not valid","correlationId":"a580aece-c354-45b8-bcf8-4870e67cd223","requestId":"ce4b1e03690853c1e2bbc51bfdd0e1c3"} in Line : 397
 
 
+h2. Exception auf Live
+
+
+{ 
+   "validationResults":[ 
+      { 
+         "isValid":false,
+         "message":"Property \"kontonummer\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"kontonummer"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"bankleitzahl\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"bankleitzahl"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"sepa_mandat_vom\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"sepa_mandat_vom"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"iban\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"iban"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"mg_nr\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"mg_nr"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"name_der_bank\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"name_der_bank"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"sepa_referenz\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"sepa_referenz"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"kontoinhaber\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"kontoinhaber"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"login\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"login"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"bic\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"bic"
+      },
+      { 
+         "isValid":false,
+         "message":"Property \"mehrwertsteuer\" does not exist",
+         "error":"PROPERTY_DOESNT_EXIST",
+         "name":"mehrwertsteuer"
+      }
+   ],
+   "status":"error",
+   "message":"Property values were not valid",
+   "correlationId":"a641bc45-cb62-476c-9b8c-3ad25d24b56b",
+   "requestId":"4c3924a92d345e76c44c24af54551763"
+}
+
 
 
