@@ -442,6 +442,7 @@ SSH-Passwort: Ais0ahRu
 - Datum verschiedenes Format ( wobei egal)
 - Wert der letzten Buchung kann leer sein.
 
+Alles trimmen!!!
 
 
 Error: Error at Importing : time data '..' does not match format '%d.%m.%Y' : 48
