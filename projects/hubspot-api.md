@@ -451,4 +451,7 @@ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.cor
 
 Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : {"validationResults":[{"isValid":false,"message":"Email address lenka_kurt@yahoo.de  is invalid","error":"INVALID_EMAIL","name":"email"}],"status":"error","message":"Property values were not valid","correlationId":"8e6ab6b7-d014-46b6-931f-9ea0894d37ac","requestId":"9e314b1e1b6a89911a48d76edbdaafee"} in Line : 209
 
+Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : Email is empty, not able to persist in Hubspot in Line : 253
+
+
 
