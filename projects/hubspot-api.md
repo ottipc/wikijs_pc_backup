@@ -453,5 +453,8 @@ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.cor
 
 Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : Email is empty, not able to persist in Hubspot in Line : 253
 
+ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : time data '..' does not match format '%d.%m.%Y' in Line : 340
+
+
 
 
