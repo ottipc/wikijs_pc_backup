@@ -445,5 +445,9 @@ SSH-Passwort: Ais0ahRu
 
 
 Error: Error at Importing : time data '..' does not match format '%d.%m.%Y' : 48
+
 Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : time data '..' does not match format '%d.%m.%Y' in Line : 70
+
+Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : {"validationResults":[{"isValid":false,"message":"Email address lenka_kurt@yahoo.de  is invalid","error":"INVALID_EMAIL","name":"email"}],"status":"error","message":"Property values were not valid","correlationId":"8e6ab6b7-d014-46b6-931f-9ea0894d37ac","requestId":"9e314b1e1b6a89911a48d76edbdaafee"} in Line : 209
+
 
