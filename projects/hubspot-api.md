@@ -457,6 +457,9 @@ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.cor
 
 Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : time data '..' does not match format '%d.%m.%Y' in Line : 343
 
+ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : time data '..' does not match format '%d.%m.%Y' in Line : 350
+
+
 
 
 
