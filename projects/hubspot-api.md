@@ -461,6 +461,8 @@ Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.cor
 
 ".." anstatt einem Date. Kommt oft vor!
 
+Exception importing /home/hubspot_test/csvfiles/export-schorndorf_2019_12_05.corrected.csv : {"validationResults":[{"isValid":false,"message":"Email address test_fm is invalid","error":"INVALID_EMAIL","name":"email"}],"status":"error","message":"Property values were not valid","correlationId":"a580aece-c354-45b8-bcf8-4870e67cd223","requestId":"ce4b1e03690853c1e2bbc51bfdd0e1c3"} in Line : 397
+
 
 
 
