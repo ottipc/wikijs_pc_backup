@@ -440,6 +440,7 @@ SSH-Passwort: Ais0ahRu
 ## Testergebnisse
 - Email muss getrimmt werden
 - Datum verschiedenes Format ( wobei egal)
+- Wert der letzten Buchung kann leer sein.
 
 
 
