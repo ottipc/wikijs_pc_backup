@@ -437,6 +437,9 @@ SSH-Port: 22
 SSH-Benutzer: mcarena
 SSH-Passwort: Ais0ahRu
 
+## Testergebnisse
+- Email muss getrimmt werden
+- Datum verschiedenes Format ( wobei egal)
 
 
 
