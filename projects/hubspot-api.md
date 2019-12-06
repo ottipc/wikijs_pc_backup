@@ -568,3 +568,7 @@ Auf den etes Server werde ich es die naechsten Tage spielen. Macht fuer euch den
 Gruesse
 
 Ottavio
+
+## Live Test
+
+Exception importing /home/hubspot_test/csvfiles/test_hubspot.single.csv : {"validationResults":[{"isValid":false,"message":"1000Euro was not a valid number.","error":"INVALID_INTEGER","name":"wert_der_letzten_buchung"}],"status":"error","message":"Property values were not valid","correlationId":"9b3e5ce3-b29e-4729-b379-13d7c868aa41","requestId":"0525226a7a816a9884723cda9c5509ae"} in Line : 2
