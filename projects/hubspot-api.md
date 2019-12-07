@@ -572,3 +572,16 @@ Ottavio
 ## Live Test
 
 Exception importing /home/hubspot_test/csvfiles/test_hubspot.single.csv : {"validationResults":[{"isValid":false,"message":"1000Euro was not a valid number.","error":"INVALID_INTEGER","name":"wert_der_letzten_buchung"}],"status":"error","message":"Property values were not valid","correlationId":"9b3e5ce3-b29e-4729-b379-13d7c868aa41","requestId":"0525226a7a816a9884723cda9c5509ae"} in Line : 2
+
+
+## Crontabs
+
+
+```batchfile
+# Crontab fur hbspot api all 15 Minutes
+*/15 * * * * /var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh
+# Crontab delte logs after half hear
+* * * */6 * ind /var/www/vhosts/mcarena/tool_hubspot_api/log/* -mtime +6 -type f -delete >/dev/null 2>&1
+# Crontab delte logs after 5 Minutes
+*/5 * * * * ind /var/www/vhosts/mcarena/tool_hubspot_api/log/* -mtime +6 -type f -delete >/dev/null 2>&1
+```
