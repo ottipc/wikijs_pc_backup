@@ -5,7 +5,7 @@
 
 
 
-<center>**Author: Ottavio Braun**</center>
+**<center>Author: Ottavio Braun</center>** ©
 
 ## Projekt
 
