@@ -12,9 +12,6 @@
 
 ## Projekt
 
-
-### Anforderungen :
-
 Der Importer liest CSV Dateien aus einem bestimmten Ordner, konvertiert die Daten und sendet diese per API Call in die Kontakte des vorgesehen Hubspot Account.
 
 ### <center>Technische Anforderungen :</center>
