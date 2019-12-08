@@ -133,8 +133,7 @@ Zum Logging wird logger.pl verwendet. Die komplette Funktionalitaet uebernimmt d
 Die Funktion zur Rotierung der log Dateien uebernehmen die oben genannten Cron Jobs.
 
 
-**Installation auf Server:
-**
+**Installation auf Server:**
 Path : */var/www/vhosts/mcarena/tool_hubspot_migration*
 Script zum ausfuehren : */var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh*
 Log Files : */var/www/vhosts/mcarena/tool_hubspot_migration/log
