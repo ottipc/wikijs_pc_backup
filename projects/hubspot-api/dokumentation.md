@@ -49,6 +49,44 @@ Die angeforderten cron jobs sind in diesem Format :
 
 ```
 
+Einlesen CSV Dateien :
+
+- Der Importer laest alle Dateien mit der Endung *.csv*  in einem bestimmten Verzeichnis. In dieses Verzeichnis mit den Namen *csvfiles* besteht die Moeglichkeit, per ftps Dateien hochzuladen.
+Struktur des Verzeichnisses :
+
+		- csvfiles
+				- processsed
+				- errorprocessed
+
+Gibt es ein Problem in einer CSV Datei, wo wird ein fehler ausgegeben und die Datei wird mit einem Zeitstempel nach errorprocessed verschoben. Beispiel *csvfiles/errorprocessed/export-schorndorf_2019-12-06.06.12.06.12.20190-20:59:33.csv*
+So sieht  man am endenden Zeitstempel der Datei, wann die Datei importiert wurde.
+Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert
+
+Mails
+
+Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet ( Bitte auch im spam Ordner achten. Der Absender ist mcarena@web-02.etes.de)
+
+Error Email :
+
+`Processed:
+lw1@mcarena.de
+
+File NOT imported correctly to Hubspot and moved to erroprocessed: export-schorndorf_2019-12-06.06.12.richtigeKategorie.06.12.201908-20:32:49.csv 
+
+Error: Error at Importing : list index out of range : Line 3
+
+`
+
+Prozessierte Email:
+
+`Processed:
+lw1@mcarena.de
+
+File imported correctly to Hubspot and moved to processed: test_hubspot.single.06.12.201901-13:30:46.csv 
+`
+
+
+
 
 
 
