@@ -585,3 +585,9 @@ Exception importing /home/hubspot_test/csvfiles/test_hubspot.single.csv : {"vali
 # Crontab delte logs after 5 Minutes
 */5 * * * * ind /var/www/vhosts/mcarena/tool_hubspot_api/log/* -mtime +6 -type f -delete >/dev/null 2>&1
 ```
+
+chmod 755 call_hubspot_api.log
+
+chmod 755 log
+touch crontab_hubspot_api.log
+[mcarena@web-02 log]$ chmod 755 crontab_hubspot_api.log 
