@@ -19,8 +19,8 @@ Der Importer liest CSV Dateien aus einem bestimmten Ordner, konvertiert die Date
 Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 
 - Installiertem python3 ( mit zusaetzlichem request modul)
-- Server muss die Moeglichkeit bereit stellen, auf ein Verzeichnis per sftp zureifen zu koennen
-- Server muss die Moeglichkeit besitzten, Email per Sendmail zu verschicken
+- Server muss die Moeglichkeit bereit stellen, auf ein Verzeichnis per ftps zureifen zu koennen ( Zugang bei etes fuer : mcarena@web-02.etes.de)
+- Server muss die Moeglichkeit besitzten, Email per sendmail zu verschicken
 - Es muss die Moeglichkeit bestehen, einen crontab einzurichten
 
 
@@ -29,7 +29,7 @@ Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 
 **Technische Daten :**
 
-- python3
+- python3 (mit request modul)
 - sendmail
 - crontab
 
@@ -57,23 +57,23 @@ Die angeforderten cron jobs sind in diesem Format :
 
 Einlesen CSV Dateien :
 
-- Der Importer laest alle Dateien mit der Endung *.csv*  in einem bestimmten Verzeichnis. In dieses Verzeichnis mit den Namen *csvfiles* besteht die Moeglichkeit, per ftps Dateien hochzuladen.
+- Der Importer liest alle Dateien mit der Endung *.csv*  in einem bestimmten Verzeichnis. In dieses Verzeichnis mit den Namen *csvfiles* besteht die Moeglichkeit, per ftps Dateien hochzuladen.
 Struktur des Verzeichnisses :
 
 		- csvfiles
 				- processsed
 				- errorprocessed
 
-Gibt es ein Problem in einer CSV Datei, wo wird ein fehler ausgegeben und die Datei wird mit einem Zeitstempel nach errorprocessed verschoben. Beispiel *csvfiles/errorprocessed/export-schorndorf_2019-12-06.06.12.06.12.20190-20:59:33.csv*
+Gibt es ein Problem in einer CSV Datei, wird ein Fehler ausgegeben und die Datei wird mit einem Zeitstempel nach errorprocessed verschoben. Beispiel *csvfiles/errorprocessed/export-schorndorf_2019-12-06.06.12.06.12.20190-20:59:33.csv*
 So sieht  man am endenden Zeitstempel der Datei, wann die Datei importiert wurde.
-Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert.
+Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert und nach processed verschoben : *csvfiles/processed/export-schorndorf_2019-12-06.06.12.06.12.20190-20:59:33.csv*
 
 **Hubspot :**
-Anschliessend werden die Daten zu json formatiert und per request zu hibspot gesendet. Gibt Hubspot Fehler zurueck, so werden diese in einer Mail versendet.
+Anschliessend werden die Daten zu json formatiert und per request zu Hubspot gesendet. Gibt Hubspot Fehler zurueck, so werden diese in einer Mail versendet.
 
 **Mails**
 
-Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet ( Bitte auch im spam Ordner achten. Der Absender ist mcarena@web-02.etes.de)
+Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet ( Bitte auch im Spam Ordner schauen. Der Absender ist mcarena@web-02.etes.de)
 
 - Error Email :
 
@@ -101,12 +101,12 @@ Ansonsten wird die Zeile ausgegeben, in der der Fehler in der CSV Datei liegt.
 
 ### Vorgehensweise.
 
-- Wird eine Mail gesendet, bei der ein Fehler in der CSV Datei ausgegen wird ( dies kann auch ein Fehler im Hubspot sein : keine Property, falscher Property Typ, etc) so korrigiert der Benuter dies in der Mail angegeben CSV Datei, die mit dem jeweilogen Zeitstempel in *errorprocessed* liegt und schiebt diese Datei wieder in den Ordner *csvfiles*). Diese wird dann vom Importer wieder abgeholt und prozessiert. Dieser Prozess geschieht so lang, bis die CSV Datei nur fehlerfrei Daten enhaelt ( sollte durch einen automatischen Export sowieso gewaehrleistet sein.
+- Wird eine Mail gesendet, bei der ein Fehler in der CSV Datei ausgegen wird ( dies kann auch ein Fehler im Hubspot sein : keine Property, falscher Property Typ, etc) so korrigiert der Benuter diese in der Mail angegeben CSV Datei, die mit dem jeweiligen Zeitstempel in *errorprocessed* liegt und schiebt diese Datei wieder in den Ordner *csvfiles*). Diese wird dann vom Importer wieder abgeholt und prozessiert. Dieser Prozess geschieht so lang, bis die CSV Datei nur fehlerfreie Daten enhaelt ( sollte durch einen automatischen Export sowieso gewaehrleistet sein).
 
 **Wichtig :**
 
 - Neue Spaltenn und Aenderungen im Dateiformat bedarf Anpassungen im Importer
-- Der Importer datet die Daten per email ab. Steht in der email somit schon ein in Hubspot eingetragener Satz, so wird kein neuer Kontakt angelegt, sondern die Daten angepasst
+- Der Primery key des importers ist die Email. Steht in der email somit schon ein in Hubspot eingetragener Satz, so wird kein neuer Kontakt angelegt, sondern die Daten angepasst
 
 
 Properties in Hubspot, die momentan eingelesen werden :
@@ -133,8 +133,8 @@ Zum Logging wird logger.pl verwendet. Die komplette Funktionalitaet uebernimmt d
 Die Funktion zur Rotierung der log Dateien uebernehmen die oben genannten Cron Jobs.
 
 
-Installation  auf Server:
-
+**Installation auf Server:
+**
 Path : */var/www/vhosts/mcarena/tool_hubspot_migration*
 Script zum ausfuehren : */var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh*
 Log Files : */var/www/vhosts/mcarena/tool_hubspot_migration/log
