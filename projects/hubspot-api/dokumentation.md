@@ -1,7 +1,7 @@
-<!-- TITLE: <center>Dokumentation McArena Hubspot Importer</center> -->
+<!-- TITLE: Dokumentation McArena Hubspot Importer</center> -->
 <!-- SUBTITLE: <center>Systemdokumentation zum CSV Importer nach Hubspot fuer McArena</center> -->
 
-# Integration Software fuer McArena zum Import in Hubsport
+# <center>Integration Software fuer McArena zum Import in Hubsport</center>
 
 
 
