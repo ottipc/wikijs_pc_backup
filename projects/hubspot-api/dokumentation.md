@@ -1,7 +1,10 @@
 <!-- TITLE: Dokumentation -->
 <!-- SUBTITLE: A quick summary of Dokumentation -->
 
-Integration Software fuer McArena zum Import in Hubsport
+# Integration Software fuer McArena zum Import in Hubsport
+
+
+<center>Author ottavio.braun</center>
 
 Projekt
 
@@ -75,12 +78,58 @@ File NOT imported correctly to Hubspot and moved to erroprocessed: export-schorn
 
 Error: Error at Importing : list index out of range : Line 3
 
-``
-`
+```
+
 Prozessierte Email:
 
 ```Processed:
 lw1@mcarena.de
 
 File imported correctly to Hubspot and moved to processed: test_hubspot.single.06.12.201901-13:30:46.csv 
-`
+```
+
+
+Processed stellt eine Liste der Eintraege dar, die bereits importiert wurden. 
+Ansonsten wird die Zeile ausgegeben, in der der Fehler in der CSV Datei liegt.
+
+
+Vorgehensweise.
+
+- Wird eine Mail gesendet, bei der ein Fehler in der CSV Datei ausgegen wird ( dies kann auch ein Fehler im Hubspot sein : keine Property, falscher Property Typ, etc) so korrigiert der Benuter dies in der Mail angegeben CSV Datei, die mit dem jeweilogen Zeitstempel in *errorprocessed* liegt und schiebt diese Datei wieder in den Ordner *csvfiles*). Diese wird dann vom Importer wieder abgeholt und prozessiert. Dieser Prozess geschieht so lang, bis die CSV Datei nur fehlerfrei Daten enhaelt ( sollte durch einen automatischen Export sowieso gewaehrleistet sein.
+
+Wichtig :
+
+- Der Importer datet die Daten per email ab. Steht in der email somit schon ein in Hubspot eingetragener Satz, so wird kein neuer Kontakt angelegt, sondern die Daten angepasst
+
+
+Properties in Hubspot, die momentan eingelesen werden :
+
+                        "property": "email",
+                        "property": "lastname",
+                        "property": "website",
+                        "property": "company",
+                        "property": "phone",
+                        "property": "mobilephone",
+                        "property": "address",
+                        "property": "date_of_birth",
+                        "property": "city",
+                        "property": "fax",
+                        "property": "datum_der_letzten_Buchung",
+                        "property": "wert_der_letzten_Buchung",
+                        "property": "zip",
+                        "property": "datum_der_n_chsten_buchung",
+                        "property": "kontaktkategorie"
+												
+Logging.
+
+Zum Logging wird logger.pl verwendet. Die komplette Funktionalitaet uebernimmt dieser.
+Die Funktion zur Rotierung der log Dateien uebernehmen die oben genannten Cron Jobs.
+
+
+Installation  auf Server:
+
+Path : */var/www/vhosts/mcarena/tool_hubspot_migration*
+Script zum ausfuehren : */var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh*
+Log Files : */var/www/vhosts/mcarena/tool_hubspot_migration/log
+				
+				
