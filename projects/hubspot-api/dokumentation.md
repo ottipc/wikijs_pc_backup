@@ -4,16 +4,17 @@
 # Integration Software fuer McArena zum Import in Hubsport
 
 
-<center>Author ottavio.braun</center>
 
-Projekt
+<center>*Author: Ottavio Braun</center>
+
+## Projekt
 
 
-Anforderungen :
+### Anforderungen :
 
 Der Importer liest CSV Dateien aus einem bestimmten Ordner, konvertiert die Daten und sendet diese per API Call in die Kontakte des vorgesehen Hubspot Account.
 
-Technische Anforderungen :
+<center>*Technische Anforderungen :*</center>
 
 Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 
@@ -23,13 +24,15 @@ Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 - Es muss die Moeglichkeit bestehen, einen crontab einzurichten
 
 
-Systemdokumentation
+<center>*Systemdokumentation*</center>
 
-Technische Daten :
+
+**Technische Daten :**
 
 - python3
 - sendmail
 - crontab
+
 
 Funktionsweise in einzelnen Schritten :
 
@@ -63,13 +66,16 @@ Struktur des Verzeichnisses :
 
 Gibt es ein Problem in einer CSV Datei, wo wird ein fehler ausgegeben und die Datei wird mit einem Zeitstempel nach errorprocessed verschoben. Beispiel *csvfiles/errorprocessed/export-schorndorf_2019-12-06.06.12.06.12.20190-20:59:33.csv*
 So sieht  man am endenden Zeitstempel der Datei, wann die Datei importiert wurde.
-Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert
+Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert.
 
-Mails
+**Hubspot :**
+Anschliessend werden die Daten zu json formatiert und per request zu hibspot gesendet. Gibt Hubspot Fehler zurueck, so werden diese in einer Mail versendet.
+
+**Mails**
 
 Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet ( Bitte auch im spam Ordner achten. Der Absender ist mcarena@web-02.etes.de)
 
-Error Email :
+- Error Email :
 
 ```Processed:
 lw1@mcarena.de
@@ -80,7 +86,7 @@ Error: Error at Importing : list index out of range : Line 3
 
 ```
 
-Prozessierte Email:
+- Prozessierte Email:
 
 ```Processed:
 lw1@mcarena.de
@@ -93,12 +99,13 @@ Processed stellt eine Liste der Eintraege dar, die bereits importiert wurden.
 Ansonsten wird die Zeile ausgegeben, in der der Fehler in der CSV Datei liegt.
 
 
-Vorgehensweise.
+### Vorgehensweise.
 
 - Wird eine Mail gesendet, bei der ein Fehler in der CSV Datei ausgegen wird ( dies kann auch ein Fehler im Hubspot sein : keine Property, falscher Property Typ, etc) so korrigiert der Benuter dies in der Mail angegeben CSV Datei, die mit dem jeweilogen Zeitstempel in *errorprocessed* liegt und schiebt diese Datei wieder in den Ordner *csvfiles*). Diese wird dann vom Importer wieder abgeholt und prozessiert. Dieser Prozess geschieht so lang, bis die CSV Datei nur fehlerfrei Daten enhaelt ( sollte durch einen automatischen Export sowieso gewaehrleistet sein.
 
-Wichtig :
+**Wichtig :**
 
+- Neue Spaltenn und Aenderungen im Dateiformat bedarf Anpassungen im Importer
 - Der Importer datet die Daten per email ab. Steht in der email somit schon ein in Hubspot eingetragener Satz, so wird kein neuer Kontakt angelegt, sondern die Daten angepasst
 
 
@@ -120,7 +127,7 @@ Properties in Hubspot, die momentan eingelesen werden :
                         "property": "datum_der_n_chsten_buchung",
                         "property": "kontaktkategorie"
 												
-Logging.
+**Logging:**
 
 Zum Logging wird logger.pl verwendet. Die komplette Funktionalitaet uebernimmt dieser.
 Die Funktion zur Rotierung der log Dateien uebernehmen die oben genannten Cron Jobs.
