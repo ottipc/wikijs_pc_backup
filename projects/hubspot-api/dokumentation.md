@@ -1,5 +1,5 @@
 <!-- TITLE: Dokumentation McArena Hubspot Importer -->
-<!-- SUBTITLE: Systemdokumentation zum CSV Importer nach Hubspot fuer MacArena -->
+<!-- SUBTITLE: Systemdokumentation zum CSV Importer nach Hubspot fuer McArena -->
 
 # Integration Software fuer McArena zum Import in Hubsport
 
