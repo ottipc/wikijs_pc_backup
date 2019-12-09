@@ -578,12 +578,23 @@ Exception importing /home/hubspot_test/csvfiles/test_hubspot.single.csv : {"vali
 
 
 ```batchfile
+# Cron für SuiteCRM
+* * * * * php -f /var/www/vhosts/mcarena/htdocs/crm cron.php > /dev/null 2>&1
+
 # Crontab fur hbspot api all 15 Minutes
 */15 * * * * /var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh
+
 # Crontab delte logs after half hear
-* * * */6 * ind /var/www/vhosts/mcarena/tool_hubspot_api/log/* -mtime +6 -type f -delete >/dev/null 2>&1
-# Crontab delte logs after 5 Minutes
-*/5 * * * * ind /var/www/vhosts/mcarena/tool_hubspot_api/log/* -mtime +6 -type f -delete >/dev/null 2>&1
+0 0 1 */6 * find /var/www/vhosts/mcarena/tool_hubspot_migration/log/* mtime +182 -type f -delete >/dev/null 2>&1
+
+# Crontab delte logs after half year
+0 0 1 */6 * find /var/www/vhosts/mcarena/tool_hubspot_migration//log/* mmin +2 -type f -delete >/dev/null 2>&1
+
+# Crontab remove logs files weekly , every Tueday on 6:25 with date to same file
+25 6 * * Tue  /var/www/vhosts/mcarena/tool_hubspot_migration//scripts/movelog.sh >/dev/null 2>&1
+
+# Crontab remove logs files every 2 minutes with date to same folder
+#*/1 * * * *   /var/www/vhosts/mcarena/tool_hubspot_migration/scripts/movelog.sh >/dev/null 2>&1
 ```
 
 chmod 755 call_hubspot_api.log
