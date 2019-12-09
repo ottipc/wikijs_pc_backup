@@ -591,3 +591,26 @@ chmod 755 call_hubspot_api.log
 chmod 755 log
 touch crontab_hubspot_api.log
 [mcarena@web-02 log]$ chmod 755 crontab_hubspot_api.log 
+
+
+## Telefongespraech Lukas :
+
+Zu den Werten :
+
+- Geburtsdatum ( das schaue ich mit heute noch an) ..genau sowas passiert uebrigens, wenn die CSV nicht stimmt. Ich habe das getestet und es muss gehen. Heisst wohl 
+
+Heisst nun geburtstag!!!!
+
+
+// geburtstag
+
+Team in Hubspot:        Geschaeftsleitung
+
+
+
+
+> Team in Hubspot:        Hier wird den Kontakten Geschäftleitung 
+> zugewiesen(Das Feld ist für interne Nutzung und sollte leer bleiben)
+> Unternehmensname:       Hier wird "Hubspot" aufgeführt, auch dieses Feld 
+> Telefonnummer und Name ist weisser :  Hier erschein der Nachname des Kontaktes
+
