@@ -723,4 +723,6 @@ module.exports = Routes;
 
 ![Createsport](/uploads/fsb/createsport.png "Createsport")
 
+![Updatename](/uploads/fsb/updatename.png "Updatename")
+
 
