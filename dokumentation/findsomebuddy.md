@@ -726,3 +726,12 @@ module.exports = Routes;
 ![Updatename](/uploads/fsb/updatename.png "Updatename")
 
 
+## Pictures
+
+UPDATE 
+   files
+SET 
+   path = REPLACE(path,'http://localhost:8580','https;//findsomebuddy.de')
+WHERE 
+   path like '%http://localhost:8580%';
+
