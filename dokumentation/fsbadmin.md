@@ -11,3 +11,8 @@ npm install -g npm
 create-react-app fsb-admin
 
 Install yarn : https://yarnpkg.com/lang/en/docs/install/#debian-stable
+yarn add react-admin ra-data-json-server prop-types
+
+
+
+yarn start
