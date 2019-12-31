@@ -737,11 +737,24 @@ WHERE
 	 
 	 ## OAUTH
 	 
-	 1. Test working OAuth on side : https://findsomebuddy.de/auth/    User : fsbauth , password : fVQ/{*}jFmp:t95R
+	 
+	 
+	 2. 1. Test working OAuth on side : https://findsomebuddy.de/auth/    User : fsbauth , password : fVQ/{*}jFmp:t95R
 
-2. Login in with google or email. After you can see in console all tokens and data :
+
+3. 
+4. 
+5. 2. Login in with google or email. After you can see in console all tokens and data :
 
 ![Test Fsb Auth](/uploads/fsbauth/test-fsb-auth.png "Test Fsb Auth")
+
+
+![Test Fsb Auth 2](/uploads/fsbauth/test-fsb-auth-2.png "Test Fsb Auth 2")
+
+
+
+
+
 
 
 
