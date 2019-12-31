@@ -1,4 +1,3 @@
-![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")<!-- TITLE: Findsomebuddy -->
 <!-- SUBTITLE: A quick summary of Findsomebuddy -->
 
 # Findsomebuddy Dokumentation
@@ -746,15 +745,34 @@ WHERE
 4. 
 5. 2. Login in with google or email. After you can see in console all tokens and data :
 
+
+
+## Test Enviroment
+
+### Developing
+
+For Testing the Response of the Login Header, you can use this Site to see  what repsonse is delivering.
+
+Have a look in console. After hopy out the token in out of the input Prompt.
+( All these steps are made in the app of course)
+Have a look in code! Comment exactly how done in node js!
+
 ![Test Fsb Auth](/uploads/fsbauth/test-fsb-auth.png "Test Fsb Auth")
 
 
+### Signin
+
+Now you can sign in, passing the firebase token in the REST signin Call!
+
 ![Test Fsb Auth 2](/uploads/fsbauth/test-fsb-auth-2.png "Test Fsb Auth 2")
 
+..and get the small token at end of response
 
+### Using as Beaerer
 
+The token has an tome out, so after limited time it has to be replaced!
 
-
+![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")<!-- TITLE: Findsomebuddy -->
 
 
 
