@@ -734,4 +734,19 @@ SET
    path = REPLACE(path,'http://localhost:8580','https;//findsomebuddy.de')
 WHERE 
    path like '%http://localhost:8580%';
+	 
+	 ## OAUTH
+	 
+	 1. Test working OAuth on side : https://findsomebuddy.de/auth/    User : fsbauth , password : fVQ/{*}jFmp:t95R
+
+2. Login in with google or email. After you can see in console all tokens and data :
+
+![Test Fsb Auth](/uploads/fsbauth/test-fsb-auth.png "Test Fsb Auth")
+
+
+
+
+
+
+	 
 
