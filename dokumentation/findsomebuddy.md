@@ -734,22 +734,16 @@ SET
 WHERE 
    path like '%http://localhost:8580%';
 	 
-	 ## OAUTH
 	 
-	 
-	 
-	 2. 1. Test working OAuth on side : https://findsomebuddy.de/auth/    User : fsbauth , password : fVQ/{*}jFmp:t95R
 
 
-3. 
-4. 
-5. 2. Login in with google or email. After you can see in console all tokens and data :
-
-
-
-## Test Enviroment
+## Test Enviroment OAUTH
 
 ### Developing
+
+Testsite for Login and Oauth for FSB : https://findsomebuddy.de/auth/
+
+User  : fsbauth, password : fVQ/{*}jFmp:t95R
 
 For Testing the Response of the Login Header, you can use this Site to see  what repsonse is delivering.
 
@@ -770,9 +764,9 @@ Now you can sign in, passing the firebase token in the REST signin Call!
 
 ### Using as Beaerer
 
-The token has an tome out, so after limited time it has to be replaced!
+The token has an time out, so after limited time it has to be replaced!
 
-![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")<!-- TITLE: Findsomebuddy -->
+![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")
 
 
 
