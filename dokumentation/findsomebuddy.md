@@ -1,4 +1,4 @@
-<!-- TITLE: Findsomebuddy -->
+![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")<!-- TITLE: Findsomebuddy -->
 <!-- SUBTITLE: A quick summary of Findsomebuddy -->
 
 # Findsomebuddy Dokumentation
