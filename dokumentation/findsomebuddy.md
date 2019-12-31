@@ -745,7 +745,10 @@ WHERE
 
 ## Test Enviroment OAUTH
 
+
 ### Developing
+
+
 
 Testsite for Login and Oauth for FSB : https://findsomebuddy.de/auth/
 
@@ -760,6 +763,7 @@ Have a look in code! Comment exactly how done in node js!
 ![Test Fsb Auth](/uploads/fsbauth/test-fsb-auth.png "Test Fsb Auth")
 
 
+
 ### Signin
 
 Now you can sign in, passing the firebase token in the REST signin Call!
@@ -767,6 +771,7 @@ Now you can sign in, passing the firebase token in the REST signin Call!
 ![Test Fsb Auth 2](/uploads/fsbauth/test-fsb-auth-2.png "Test Fsb Auth 2")
 
 ..and get the small token at end of response
+
 
 ### Using as Beaerer
 
