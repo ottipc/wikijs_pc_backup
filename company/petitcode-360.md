@@ -1,5 +1,5 @@
-<!-- TITLE: Petitcode 360° -->
-<!-- SUBTITLE: A quick summary of Petitcode 360° -->
+<!-- TITLE: Business Plan petitcode 360°-->
+<!-- SUBTITLE: A Quick Summary of petitcode 360° (petitcode 360° is the working title)-->
 
 # Overview
 
