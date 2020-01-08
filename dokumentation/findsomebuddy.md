@@ -737,12 +737,6 @@ WHERE
 	 
 
 
-
-
-
-
-
-
 ## Test Enviroment OAUTH
 
 
@@ -778,6 +772,20 @@ Now you can sign in, passing the firebase token in the REST signin Call!
 The token has an time out, so after limited time it has to be replaced!
 
 ![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")
+
+
+## Upload Image
+
+### 1. Upload Image
+
+![1 Uploadimage](/uploads/fsb/1-uploadimage.png "1 Uploadimage")
+
+
+### 2. Show Image
+
+
+![Photos](/uploads/fsb/photos.png "Photos")
+
 
 
 
