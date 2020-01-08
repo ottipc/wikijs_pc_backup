@@ -6,7 +6,7 @@
 
 petitcode GmbH
 c/o  Factory Works
-Rheinsberger Str. 76/77
+Rheinsberger Straße 76/77
 10115 Berlin
 
 ### CEO
