@@ -27,11 +27,10 @@ IBAN : FI1579977997401448
 
 ## petitcode Members
 
-* guy@petitcode.com
  
 * otti@petitcode.com
  
-* lukas@petitcode.com
+(* lukas@petitcode.com)
  
 * seb@petitcode.com
  
