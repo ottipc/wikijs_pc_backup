@@ -38,7 +38,9 @@ USE:
 
 ## accounting
 
-### Different Packages! ( FastBill!!!! - Seb)
+The idea is to help other Freelancers, UGs, and GmbHs to get their daily, monthly and yearly accounting sorted. We herfore just consult them to use the tools right! We are not a tax consultant neither are we their officla accountant. We are only adivsing how to use the software properly. If they need a tax accountant for the beginning we will suggest them people from our network until we maybe one day have our own inhouse tax accountant. 
+
+### Different Packages
 
 ## Phone
 
