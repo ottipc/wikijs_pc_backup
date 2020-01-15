@@ -5,6 +5,8 @@
 
 A First concept paper for the idea of creating a full-service agency approach for small agencies and Freelancers
 
+One can see this company/ agency as a full-service help and advising company. The more clients we get the more we can expand and hene hire people, and professionals (Accountants, tax accountants and lawyers.) At the beginnig we shall drive this with our network. 
+
 
 Offload your Bullshit and get the more time for the good shit!
 
@@ -15,7 +17,7 @@ Responsible for launch/ Supervisor: Axel and Seb
 Version: 0.2
 
 
-Due Date: 21.12.2019
+Due Date: 31.01.2019
 
 USE: 
 1.	Internal Understanding of Business Model
@@ -23,10 +25,20 @@ USE:
 3.	Creating a Subpage on the Website and a Landing Page
 
 
-# Prices
+# Prices of different packages/ services
+
+## Initial set up 299€
 
 ## S 99€ 
-## M 199 
+
+- minimal service help, only via mail/ intercom/ ticketing 
+- replying within 24hours
+- 30 mins advisory time per month included (mail, intercom) 
+- managing their physical post and scanning that (max. 8 letter per week) 
+- telephone service (EXTRA)
+
+
+## M 199€
 ## L 399
 ## Entreprise on Request 
 
@@ -41,6 +53,10 @@ USE:
 The idea is to help other Freelancers, UGs, and GmbHs to get their daily, monthly and yearly accounting sorted. We herfore just consult them to use the tools right! We are not a tax consultant neither are we their officla accountant. We are only adivsing how to use the software properly. If they need a tax accountant for the beginning we will suggest them people from our network until we maybe one day have our own inhouse tax accountant. 
 
 ### Different Packages
+
+depending on their workload we should arrange the packages by the time that we need to manage this. 
+
+
 
 ## Phone
 
@@ -59,9 +75,9 @@ The idea is to help other Freelancers, UGs, and GmbHs to get their daily, monthl
 
 ### caya service (Fake it until you make it)
 
-### postnachsende 
+### Postnachsendeauftrag
 
-### smartcontracts 
+### Smartcontracts 
 
 ## booking agency
 
