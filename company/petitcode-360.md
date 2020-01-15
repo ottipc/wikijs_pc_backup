@@ -27,18 +27,37 @@ USE:
 
 # Prices of different packages/ services
 
+All extra hours are billed as followed:
+
+- basic email help: 35€
+- StartUp/ Entrepreneuer help: 80€ (discount of 50% for up to 5 hours max, if other company writes a blog article about us!)
+- senior business consulting 120€
+- senior financial consulting 150€
+
+
 ## Initial set up 299€
+
 
 ## S 99€ 
 
 - minimal service help, only via mail/ intercom/ ticketing 
 - replying within 24hours
+- basic check of accounting questions per month (15 mins max)
 - 30 mins advisory time per month included (mail, intercom) 
 - managing their physical post and scanning that (max. 8 letter per week) 
 - telephone service (EXTRA)
 
 
 ## M 199€
+
+All from S plus
+
+- avaialable for calls (15 mins) 
+- 60 mins total advisory time via mail (tracked)
+- managing their physical post and scanning that (max. 16 letter per week)
+- telephone service (setting up of VOIP(cost for VOIP service not included), Call-Fowording, Telephone time paid by minute)
+- basic check of accounting questions per month (30 mins max)
+
 ## L 399
 ## Entreprise on Request 
 
