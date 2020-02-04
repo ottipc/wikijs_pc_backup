@@ -1,4 +1,4 @@
-<!-- TITLE: New Page -->
+<!-- TITLE: Sales Examples -->
 <!-- SUBTITLE: A quick summary of New Page -->
 
 # Sales Examples Texts from Seb
