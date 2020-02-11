@@ -560,7 +560,7 @@ Routes.push({
 });
 
 Routes.push({
-	method : "GET",
+	method : "GET",fs
 	path  : "/api/v1/chat/games/{game_id}",
 	config : {	
 		handler : function(request, reply){
@@ -785,6 +785,12 @@ The token has an time out, so after limited time it has to be replaced!
 
 
 ![Photos](/uploads/fsb/photos.png "Photos")
+
+
+## FSB Test Facebook Email Account
+
+- **User Benutzer** : pr@findsomebuddy.de
+**Password** :  fVQ/{*}jFmp:t95R
 
 
 
