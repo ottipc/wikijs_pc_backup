@@ -734,7 +734,15 @@ SET
 WHERE 
    path like '%http://localhost:8580%';
 	 
-	 
+
+
+## No root password for generating Mails
+
+**Server** : findsomebuddy.de
+**Port** : 22 
+**User Benutzer** : fermicoding
+**Password** :  cMTTUhrhvJ7YCSnh
+
 
 
 ## Test Enviroment OAUTH
@@ -774,6 +782,8 @@ The token has an time out, so after limited time it has to be replaced!
 ![Test Fsb Auth 3](/uploads/fsbauth/test-fsb-auth-3.png "Test Fsb Auth 3")
 
 
+
+
 ## Upload Image
 
 ### 1. Upload Image
@@ -791,6 +801,7 @@ The token has an time out, so after limited time it has to be replaced!
 
 - **User Benutzer** : pr@findsomebuddy.de
 **Password** :  fVQ/{*}jFmp:t95R
+
 
 
 
