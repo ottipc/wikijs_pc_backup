@@ -736,7 +736,7 @@ WHERE
 	 
 
 
-## No root password for generating Mails
+## No root password for generating Html sides
 
 **Server** : findsomebuddy.de
 **Port** : 22 
