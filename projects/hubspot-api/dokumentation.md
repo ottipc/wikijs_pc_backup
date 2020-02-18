@@ -38,6 +38,10 @@ Funktionsweise in einzelnen Schritten :
 
 - Der Importer wird per git installiert und enthaelt die Funktionsweise zum Einlesen von CSV dateien und saemtliche Funktionen zur Deprovisionirung von Log Dateien.
 
+
+
+
+
 Die angeforderten cron jobs sind in diesem Format :
 
 
