@@ -155,4 +155,11 @@ Log Files : */var/www/vhosts/mcarena/tool_hubspot_migration/log
 	**Host** : web-02.etes.de
 	**Protocol** : SFTP
 	**User** : mcarena
-**Passwort** :  
+	**Passwort** :  boFie3yi
+
+
+![Sftp Account](/uploads/ncarena/sftp-account.png "Sftp Account")
+
+
+
+![Ordnerstruktur](/uploads/ncarena/ordnerstruktur.png "Ordnerstruktur")
