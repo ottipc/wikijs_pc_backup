@@ -42,17 +42,14 @@ Die angeforderten cron jobs sind in diesem Format :
 
 
 ```batchfile
-# Crontab fur hbspot api all 15 Minutes
-*/15 * * * * /var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh
-# Crontab delte logs after half hear
-0 0 1 */6 * find /var/www/vhosts/mcarena/tool_hubspot_migration/log/* mtime +182 -type f -delete >/dev/null 2>&1
-# Crontab delte logs after half year
-0 0 1 */6 * find /var/www/vhosts/mcarena/tool_hubspot_migration//log/* mmin +2 -type f -delete >/dev/null 2>&1
-# Crontab remove logs files weekly , every Tueday on 6:25 with date to same file
-25 6 * * Tue  /var/www/vhosts/mcarena/tool_hubspot_migration//scripts/movelog.sh >/dev/null 2>&1
-# Crontab remove logs files every 2 minutes with date to same folder
-#*/1 * * * *   /var/www/vhosts/mcarena/tool_hubspot_migration/scripts/movelog.sh >/dev/null 2>&1
+# Crontab fur hbspot api at 4 o'clock and 16 o'clock
+0 4,16 * * * /var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh
 
+# Crontab delete logs after half hear
+0 0 1 */6 * find /var/www/vhosts/mcarena/tool_hubspot_migration/log/* mtime +182 -type f -delete >/dev/null 2>&1
+
+# Crontab moving logs files weekly , every Tueday on 6:25 with date to same file
+25 6 * * Tue  /var/www/vhosts/mcarena/tool_hubspot_migration//scripts/movelog.sh >/dev/null 2>&1
 ```
 
 Einlesen CSV Dateien :
