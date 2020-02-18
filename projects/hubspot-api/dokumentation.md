@@ -42,6 +42,11 @@ Funktionsweise in einzelnen Schritten :
 
 
 
+
+
+
+
+
 Die angeforderten cron jobs sind in diesem Format :
 
 
