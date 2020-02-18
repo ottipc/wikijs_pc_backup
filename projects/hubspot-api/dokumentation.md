@@ -14,7 +14,7 @@
 
 Der Importer liest CSV Dateien aus einem bestimmten Ordner, konvertiert die Daten und sendet diese per API Call in die Kontakte des vorgesehen Hubspot Account.
 
-### <center>Technische Anforderungen :</center>
+## <center>Technische Anforderungen :</center>
 
 Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 
@@ -24,7 +24,7 @@ Zur problemlosen Installation benoetigt die Anwendung einen Server mit :
 - Es muss die Moeglichkeit bestehen, einen crontab einzurichten
 
 
-### <center>Systemdokumentation</center>
+## <center>Systemdokumentation</center>
 
 
 **Technische Daten :**
