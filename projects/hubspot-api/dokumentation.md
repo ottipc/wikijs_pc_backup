@@ -52,7 +52,9 @@ Die angeforderten cron jobs sind in diesem Format :
 25 6 * * Tue  /var/www/vhosts/mcarena/tool_hubspot_migration//scripts/movelog.sh >/dev/null 2>&1
 ```
 
-Einlesen CSV Dateien :
+Der Importer laeuft immer um 4 Uhr in der Nacht und um 16:00 Uhr am Nachittag, somit alle 12 Stunden.
+
+### Einlesen CSV Dateien :
 
 - Der Importer liest alle Dateien mit der Endung *.csv*  in einem bestimmten Verzeichnis. In dieses Verzeichnis mit den Namen *csvfiles* besteht die Moeglichkeit, per ftps Dateien hochzuladen.
 Struktur des Verzeichnisses :
@@ -75,7 +77,11 @@ Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet (
 - Error Email :
 
 ```Processed:
+
 lw1@mcarena.de
+...
+hier die Eintraege, die alle upgedated wurden
+...
 
 File NOT imported correctly to Hubspot and moved to erroprocessed: export-schorndorf_2019-12-06.06.12.richtigeKategorie.06.12.201908-20:32:49.csv 
 
@@ -86,7 +92,11 @@ Error: Error at Importing : list index out of range : Line 3
 - Prozessierte Email:
 
 ```Processed:
-lw1@mcarena.de
+
+lw1@mcarena.de 
+...
+hier die Eintraege, die alle upgedated wurden
+...
 
 File imported correctly to Hubspot and moved to processed: test_hubspot.single.06.12.201901-13:30:46.csv 
 ```
@@ -136,3 +146,13 @@ Script zum ausfuehren : */var/www/vhosts/mcarena/tool_hubspot_migration/call_hub
 Log Files : */var/www/vhosts/mcarena/tool_hubspot_migration/log
 				
 				
+				
+				
+## <center>Zugangsdaten</center>
+
+### FTP Server 
+
+	**Host** : web-02.etes.de
+	**Protocol** : SFTP
+	**User** : mcarena
+**Passwort** :  
