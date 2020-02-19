@@ -41,7 +41,7 @@ Funktionsweise in einzelnen Schritten :
 <br><br><br><br>
 Die angeforderten cron jobs sind in diesem Format :
 
-
+<span style ="font-size : 10px">
 ```batchfile
 # Crontab fur hbspot api at 4 o'clock and 16 o'clock
 0 4,16 * * * /var/www/vhosts/mcarena/tool_hubspot_migration/call_hubspot_api_cron.sh
@@ -52,6 +52,7 @@ Die angeforderten cron jobs sind in diesem Format :
 # Crontab moving logs files weekly , every Tueday on 6:25 with date to same file
 25 6 * * Tue  /var/www/vhosts/mcarena/tool_hubspot_migration//scripts/movelog.sh >/dev/null 2>&1
 ```
+</span>
 
 Der Importer laeuft immer um 4 Uhr in der Nacht und um 16:00 Uhr am Nachittag, somit alle 12 Stunden.
 
