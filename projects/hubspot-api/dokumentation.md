@@ -73,9 +73,7 @@ Sollte die CSV Datei fehlerfrei sein, so wird sie komplett importiert und nach p
 Anschliessend werden die Daten zu json formatiert und per request zu Hubspot gesendet. Gibt Hubspot Fehler zurueck, so werden diese in einer Mail versendet.
 
 **Mails**
-
 Sobald einen Datei importiert wurde, wird an die Empfaenger eine Mail gesendet ( Bitte auch im Spam Ordner schauen. Der Absender ist mcarena@web-02.etes.de)
-
 - Error Email :
 
 ```Processed:
@@ -91,6 +89,7 @@ export-schorndorf_2019-12-06.06.12.richtigeKategorie.06.12.201908-20:32:49.csv
 Error: Error at Importing : list index out of range : Line 3
 
 ```
+
 
 - Prozessierte Email:
 
