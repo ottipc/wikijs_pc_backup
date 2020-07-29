@@ -84,3 +84,30 @@ In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B
 ![Stammsatz Richard Melz](/uploads/spenden/stammsatz-richard-melz.png "Stammsatz Richard Melz")
 
 ![Zahlungseingang Kontoauszug](/uploads/spenden/zahlungseingang-kontoauszug.png "Zahlungseingang Kontoauszug")
+
+
+
+
+# Fragen und Fazit
+
+## Fragen
+
+* Gilt es schon vorhandene Stammdaten aus Open Hearts zu importieren? Besitzt Open Hearts einen Export?
+* Welche Rolle spielt Buchungsbutler?
+* Daten aus Lexoffice zu Hubspot oder umkehrt?
+
+## Fazit
+
+Wie schon erwaehnt, will man manuelle Eingaben vermeiden und alles per Importer regeln. Im Hubspot laesst sich alles per Api importieren, was man auch anlegen kann. Somit gilt es festzustellen, was man aus den Stammdaten der Spender **NICHT** in Hubspot abbilden kann. Diese Funktionlitaeten muessen programmiert werden.
+Sollte im Hubspot tatsaechlich alles abbildbar sein, wird gar kein Frontend benoetigt, sondern nur diverse Importer und Exporter zu den einzelnen Anwendungen : Lexoffice, Hubspot.. ?
+Man muss festellen, wie das in Hubspot mit den Quittungen und dem Journal ist, das wird wohl programmiert werden muessen. Somit benoetigt man eine eigene Datenbank, eventuell eben mit der GUI.
+Lexoffice hat einen CSV Import, somit ist das Einbinden der Kontodaten hier anscheinend auch kein Problem.
+Das Problem mit den Quittungen, die weit nach Spendeneingang ausgestellt werden, ist programmatisch gar kein Problem.
+
+Wie schon festgestellt wurde, gilt es nun rauszufinden, was denn eigentlich programmiert werden muss, und deswegen ...
+
+## TODO
+
+- Jemand der sich gut mit Hubspot und den Stammdaten der Spender auskennt, sollte mal einen maximalen Bespielsatz in Hubspot anlegen, um zu sehen, was alles moeglich ist zur Abblidung der gewollten Daten. Kein Programmierer!
+- Jemand, der sich mit Lexoffice auskennt, sollte eine Beispiel CSV erstellen, die das Schema einer zu wuenschenden Importdatei representiert. Kein Programmierer!
+- Anschliessend kann man diese Metadaten abgleichen, den Satz aus Hubspot in eine CSV oder per Api abrufen und genau abschaetzen, was noch programmiert muss und was zu Problemen fuehren kann. Programmierer! 
