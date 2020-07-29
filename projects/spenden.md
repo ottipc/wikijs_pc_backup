@@ -78,3 +78,5 @@ In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B
 ![Sollstellung Lastschrift Uber Stammsatz Anlegen](/uploads/spenden/sollstellung-lastschrift-uber-stammsatz-anlegen.png "Sollstellung Lastschrift Uber Stammsatz Anlegen")
 
 ![Quittungsjournal Openhearts](/uploads/spenden/quittungsjournal-openhearts.png "Quittungsjournal Openhearts")
+
+![Zahlungseingang Kontoauszug](/uploads/spenden/zahlungseingang-kontoauszug.png "Zahlungseingang Kontoauszug")
