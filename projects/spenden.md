@@ -69,3 +69,6 @@ https://support.lexoffice.de/de-form/articles/1829211-import-elektronischer-kont
 In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B. 2001 gebucht.
 `
 
+
+
+# Open Hearts
