@@ -72,3 +72,7 @@ In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B
 
 
 # Open Hearts
+
+![Stammsatz Aufbau Openhearts](/uploads/spenden/stammsatz-aufbau-openhearts.png "Stammsatz Aufbau Openhearts")
+
+![Sollstellung Lastschrift Uber Stammsatz Anlegen](/uploads/spenden/sollstellung-lastschrift-uber-stammsatz-anlegen.png "Sollstellung Lastschrift Uber Stammsatz Anlegen")
