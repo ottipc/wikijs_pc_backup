@@ -82,3 +82,5 @@ In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B
 ![Zahlungseingang Kontoauszug](/uploads/spenden/zahlungseingang-kontoauszug.png "Zahlungseingang Kontoauszug")
 
 ![Stammsatz Richard Melz](/uploads/spenden/stammsatz-richard-melz.png "Stammsatz Richard Melz")
+
+![Zahlungseingang Kontoauszug](/uploads/spenden/zahlungseingang-kontoauszug.png "Zahlungseingang Kontoauszug")
