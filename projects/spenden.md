@@ -52,3 +52,9 @@ https://support.lexoffice.de/de-form/articles/1829211-import-elektronischer-kont
 ..könnten dann zusammengefasst werden und dann nach Lexoffice per CSV auf die entsprechenden Buchhaltungskonten eingespielt werden.
 
 
+## Problematik 
+
+`Wir erhalten Zahlungseingänge mit nur einem Namen ohne eine Adresse und es gibt auch noch keine weiteren Informationen – ob die Spende z.B. über eine Beerdigung oder Geburtstag, oder sonstige Aktion getätigt worden ist. Dann wird der Eingang verbucht und nachdem wir dann weitere Informationen erhalten haben z.B. Adresse etc. erhält der Spender seine Spendenquittung.
+In Lexoffice wird die Spende nur einfach als „Spendeneingang“ Fibu Konto z.B. 2001 gebucht.
+`
+
