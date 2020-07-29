@@ -3,6 +3,21 @@
 
 # Anforderungen
 
+## Kurzfassung Anforderungen
+
+> EKKK braucht ein CRM und Accounting Tool.
+> 
+> Hierzu müssen einige Anpasungen erstellt werden, sodass alle Daten der Spender und der Mitglieder vernünftig verwaltet werden können. 
+> 
+> Das wichtigste ist, dass alle Daten der unterschiedlichen Spenden den jeweiligen Accounts/ Spendern zugeordnet werden. 
+> 
+> Es muss daher ein Upsate aus Lexoffice in Hubspot passieren. Weil aus lexoffice die Bankaten kommen.
+> 
+> Wenn ein kontakt noch nicht existiert, dann muss er angelegt werden. Am besten wäre es für die EKKK, wenn Sie dafür so wenige Tools wie möglich händisch pflegen müssen. 
+> 
+> Beu Hubspot kann man diverse Apps auf die Plattform coden. Hierzu steht uns ein MItarbeiter zur Verfügung.
+> 
+
 ## Zu klaeren
 
 - Kann Lexoffice einen CSV Import?
