@@ -18,6 +18,17 @@
 > Beu Hubspot kann man diverse Apps auf die Plattform coden. Hierzu steht uns ein MItarbeiter zur Verfügung.
 > 
 
+
+### Eingang von Spenden (Dies sind Wege wie eine Spende bei uns ankommt)
+
+* Bankkonten
+* Paypal
+* Crowdfunding Plattformen 
+* Manuelle Zahlungen: Barspenden
+* Mitgliedseinzug
+* Lastschriften (Dauerspender werden von uns in OH angelegt und dann in die Bank per CSV eingespielt)
+
+
 ## Zu klaeren
 
 - Kann Lexoffice einen CSV Import?
