@@ -1,4 +1,4 @@
-<!-- SUBTITLE: A quick summary of Findsomebuddy -->
+b<!-- SUBTITLE: A quick summary of Findsomebuddy -->
 
 # Findsomebuddy Dokumentation
 
@@ -802,6 +802,12 @@ The token has an time out, so after limited time it has to be replaced!
 - **User Benutzer** : pr@findsomebuddy.de
 **Password** :  fVQ/{*}jFmp:t95R
 
+
+## FSB ROOT Account
+
+Server : findsomebuddy.de
+Benutzer : root
+Passwort : $zvLp4T36TgC3"xp
 
 
 
